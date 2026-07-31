@@ -90,19 +90,7 @@ export default function Home() {
         </section>
 
         <section className="section work-section">
-          <div className="shell map-layout">
-            <div className="map-copy">
-              <p className="kicker">Trusted across Victoria</p>
-              <h2>See how many customers are already near you.</h2>
-                <p>
-                  Seven years of installations, built through customer referrals.
-                  Enter your postcode to see the trust around your neighbourhood.
-                </p>
-              <div className="map-stat">
-                <strong>747</strong><span>completed projects mapped across metropolitan Melbourne</span>
-              </div>
-              <Link className="button button-primary" href="/our-work">View all projects <span>↗</span></Link>
-            </div>
+          <div className="shell">
             <ProjectMap compact />
           </div>
         </section>
