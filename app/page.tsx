@@ -94,10 +94,10 @@ export default function Home() {
             <div className="map-copy">
               <p className="kicker">Our work across Melbourne</p>
               <h2>Local experience you can see.</h2>
-              <p>
-                Explore a selection of residential, commercial and battery
-                installations completed across Melbourne.
-              </p>
+                <p>
+                  Enter your postcode to explore residential, commercial and
+                  battery installations completed near you.
+                </p>
               <div className="map-stat">
                 <strong>747</strong><span>completed projects mapped across metropolitan Melbourne</span>
               </div>

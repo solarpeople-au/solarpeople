@@ -1,76 +1,66 @@
 "use client";
 
-import * as maplibregl from "maplibre-gl";
-import type { GeoJSONSource, Map as MapLibreMap, MapMouseEvent } from "maplibre-gl";
+import type { Circle, Map as LeafletMap, Marker } from "leaflet";
 import Image from "next/image";
-import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { FormEvent, useCallback, useEffect, useMemo, useRef, useState } from "react";
 import installationData from "../data/installations.json";
 
 type Installation = (typeof installationData.installations)[number];
 type SearchPlace = { label: string; suburb: string; postcode: string; latitude: number; longitude: number };
 type NearbyCounts = { one: number; three: number; five: number };
 
-const MELBOURNE: [number, number] = [145.02, -37.82];
+const MELBOURNE: [number, number] = [-37.82, 145.02];
 
 function distanceKm(a: [number, number], b: [number, number]) {
   const rad = (value: number) => (value * Math.PI) / 180;
-  const dLat = rad(b[1] - a[1]);
-  const dLon = rad(b[0] - a[0]);
-  const lat1 = rad(a[1]);
-  const lat2 = rad(b[1]);
+  const dLat = rad(b[0] - a[0]);
+  const dLon = rad(b[1] - a[1]);
+  const lat1 = rad(a[0]);
+  const lat2 = rad(b[0]);
   const value = Math.sin(dLat / 2) ** 2 + Math.cos(lat1) * Math.cos(lat2) * Math.sin(dLon / 2) ** 2;
   return 6371 * 2 * Math.atan2(Math.sqrt(value), Math.sqrt(1 - value));
 }
 
-function circleGeoJson(center: [number, number], radiusKm: number) {
-  const points = 72;
-  const coordinates = Array.from({ length: points + 1 }, (_, index) => {
-    const angle = (index / points) * Math.PI * 2;
-    const lat = center[1] + (radiusKm / 110.574) * Math.sin(angle);
-    const lon = center[0] + (radiusKm / (111.32 * Math.cos((center[1] * Math.PI) / 180))) * Math.cos(angle);
-    return [lon, lat];
-  });
-  return { type: "Feature" as const, properties: {}, geometry: { type: "Polygon" as const, coordinates: [coordinates] } };
-}
-
 export function ProjectMap({ compact = false }: { compact?: boolean }) {
   const containerRef = useRef<HTMLDivElement>(null);
-  const mapRef = useRef<MapLibreMap | null>(null);
-  const userMarkerRef = useRef<{ remove: () => void } | null>(null);
+  const mapRef = useRef<LeafletMap | null>(null);
+  const leafletRef = useRef<typeof import("leaflet") | null>(null);
+  const userMarkerRef = useRef<Marker | null>(null);
+  const radiusRef = useRef<Circle | null>(null);
   const [query, setQuery] = useState("");
-  const [status, setStatus] = useState("Search your suburb or use your current location.");
+  const [status, setStatus] = useState("Enter your 4-digit postcode to see completed installations near you.");
   const [counts, setCounts] = useState<NearbyCounts | null>(null);
   const [selected, setSelected] = useState<Installation | null>(null);
   const [locating, setLocating] = useState(false);
+  const [mapReady, setMapReady] = useState(false);
 
   const places = useMemo<SearchPlace[]>(() => {
     const groups = new Map<string, Installation[]>();
     installationData.installations.forEach((item) => {
-      groups.set(item.suburb, [...(groups.get(item.suburb) ?? []), item]);
+      if (!item.postcode) return;
+      groups.set(item.postcode, [...(groups.get(item.postcode) ?? []), item]);
     });
-    return [...groups.entries()].map(([suburb, items]) => {
-      const postcode = items.find((item) => item.postcode)?.postcode ?? "";
-      return {
-        label: postcode ? `${suburb}, VIC ${postcode}` : `${suburb}, VIC`,
-        suburb,
-        postcode,
-        latitude: items.reduce((sum, item) => sum + item.latitude, 0) / items.length,
-        longitude: items.reduce((sum, item) => sum + item.longitude, 0) / items.length,
-      };
-    }).sort((a, b) => a.suburb.localeCompare(b.suburb));
+    return [...groups.entries()].map(([postcode, items]) => ({
+      label: `${postcode} · ${[...new Set(items.map((item) => item.suburb))].slice(0, 2).join(" / ")}`,
+      suburb: items[0].suburb,
+      postcode,
+      latitude: items.reduce((sum, item) => sum + item.latitude, 0) / items.length,
+      longitude: items.reduce((sum, item) => sum + item.longitude, 0) / items.length,
+    })).sort((a, b) => a.postcode.localeCompare(b.postcode));
   }, []);
 
   const suggestions = useMemo(() => {
-    const needle = query.trim().toLowerCase();
+    const needle = query.replace(/\D/g, "").slice(0, 4);
     if (needle.length < 2) return [];
-    return places.filter((place) => place.label.toLowerCase().includes(needle)).slice(0, 6);
+    return places.filter((place) => place.postcode.startsWith(needle)).slice(0, 6);
   }, [places, query]);
 
-  const showNearby = useCallback(async (longitude: number, latitude: number, label: string) => {
+  const showNearby = useCallback((longitude: number, latitude: number, label: string) => {
     const map = mapRef.current;
-    if (!map) return;
-    const center: [number, number] = [longitude, latitude];
-    const distances = installationData.installations.map((item) => distanceKm(center, [item.longitude, item.latitude]));
+    const L = leafletRef.current;
+    if (!map || !L) return;
+    const center: [number, number] = [latitude, longitude];
+    const distances = installationData.installations.map((item) => distanceKm(center, [item.latitude, item.longitude]));
     const nextCounts = {
       one: distances.filter((distance) => distance <= 1).length,
       three: distances.filter((distance) => distance <= 3).length,
@@ -78,137 +68,118 @@ export function ProjectMap({ compact = false }: { compact?: boolean }) {
     };
     setCounts(nextCounts);
     setStatus(`${label} · ${nextCounts.three} installations within approximately 3 km`);
-    map.flyTo({ center, zoom: 12.4, duration: 1200 });
-
-    const source = map.getSource("search-radius") as GeoJSONSource | undefined;
-    source?.setData(circleGeoJson(center, 3));
+    map.flyTo(center, 12, { duration: 1.15 });
 
     userMarkerRef.current?.remove();
-    const marker = document.createElement("div");
-    marker.className = "map-home-marker";
-    marker.setAttribute("aria-label", "Your selected area");
-    userMarkerRef.current = new maplibregl.Marker({ element: marker }).setLngLat(center).addTo(map);
+    radiusRef.current?.remove();
+    const homeIcon = L.divIcon({ className: "map-home-icon", html: '<span class="map-home-marker"></span>', iconSize: [34, 34], iconAnchor: [17, 17] });
+    userMarkerRef.current = L.marker(center, { icon: homeIcon, zIndexOffset: 1200, title: "Your selected area" }).addTo(map);
+    radiusRef.current = L.circle(center, { radius: 3000, color: "#079944", weight: 2, dashArray: "7 7", fillColor: "#18cd5b", fillOpacity: 0.1 }).addTo(map);
   }, []);
 
   useEffect(() => {
     let cancelled = false;
     async function initialise() {
       if (!containerRef.current || mapRef.current) return;
+      const leafletModule = await import("leaflet");
+      await import("leaflet.markercluster");
       if (cancelled || !containerRef.current) return;
-      const map = new maplibregl.Map({
-        container: containerRef.current,
-        style: "https://tiles.openfreemap.org/styles/positron",
+      const L = leafletModule.default;
+      leafletRef.current = L;
+      const map = L.map(containerRef.current, {
         center: MELBOURNE,
-        zoom: compact ? 8.65 : 8.9,
+        zoom: compact ? 9 : 9,
         minZoom: 7,
-        maxZoom: 16,
-        attributionControl: false,
-        dragRotate: false,
-        pitchWithRotate: false,
+        maxZoom: 18,
+        zoomControl: false,
+        scrollWheelZoom: false,
+        attributionControl: true,
       });
       mapRef.current = map;
-      map.addControl(new maplibregl.NavigationControl({ showCompass: false }), "top-right");
-      map.addControl(new maplibregl.AttributionControl({ compact: true, customAttribution: "Locality data © State of Victoria" }));
+      L.control.zoom({ position: "topright" }).addTo(map);
 
-      map.on("load", () => {
-        map.addSource("installations", {
-          type: "geojson",
-          cluster: true,
-          clusterMaxZoom: 13,
-          clusterRadius: 48,
-          data: {
-            type: "FeatureCollection",
-            features: installationData.installations.map((item) => ({
-              type: "Feature",
-              properties: item,
-              geometry: { type: "Point", coordinates: [item.longitude, item.latitude] },
-            })),
-          },
-        });
-        map.addSource("search-radius", { type: "geojson", data: circleGeoJson(MELBOURNE, 0.01) });
-        map.addLayer({ id: "search-radius-fill", type: "fill", source: "search-radius", paint: { "fill-color": "#18cd5b", "fill-opacity": 0.1 } });
-        map.addLayer({ id: "search-radius-line", type: "line", source: "search-radius", paint: { "line-color": "#079944", "line-width": 2, "line-dasharray": [2, 2] } });
-        map.addLayer({
-          id: "clusters",
-          type: "circle",
-          source: "installations",
-          filter: ["has", "point_count"],
-          paint: {
-            "circle-color": ["step", ["get", "point_count"], "#9be7b7", 10, "#4bd77c", 30, "#18cd5b"],
-            "circle-radius": ["step", ["get", "point_count"], 18, 10, 23, 30, 29],
-            "circle-stroke-color": "#ffffff",
-            "circle-stroke-width": 2,
-          },
-        });
-        map.addLayer({
-          id: "cluster-count",
-          type: "symbol",
-          source: "installations",
-          filter: ["has", "point_count"],
-          layout: { "text-field": ["get", "point_count_abbreviated"], "text-size": 12, "text-font": ["Noto Sans Regular"] },
-          paint: { "text-color": "#07110f" },
-        });
-        map.loadImage("/solar-map-pin.svg").then((image) => {
-          if (!map.hasImage("solar-pin")) map.addImage("solar-pin", image.data);
-          map.addLayer({
-            id: "individual-installations",
-            type: "symbol",
-            source: "installations",
-            filter: ["!", ["has", "point_count"]],
-            layout: { "icon-image": "solar-pin", "icon-size": 0.72, "icon-anchor": "bottom", "icon-allow-overlap": true },
+      L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+        maxZoom: 19,
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors · Locality data © State of Victoria',
+      }).addTo(map);
+
+      const clusters = L.markerClusterGroup({
+        chunkedLoading: true,
+        removeOutsideVisibleBounds: true,
+        showCoverageOnHover: false,
+        maxClusterRadius: 48,
+        iconCreateFunction: (cluster) => {
+          const count = cluster.getChildCount();
+          const size = count >= 30 ? "large" : count >= 10 ? "medium" : "small";
+          return L.divIcon({
+            className: `solar-cluster solar-cluster-${size}`,
+            html: `<span>${count}</span>`,
+            iconSize: count >= 30 ? [58, 58] : count >= 10 ? [48, 48] : [38, 38],
           });
-        });
-
-        map.on("click", "clusters", async (event: MapMouseEvent) => {
-          const feature = map.queryRenderedFeatures(event.point, { layers: ["clusters"] })[0];
-          const clusterId = feature?.properties?.cluster_id;
-          const coordinates = (feature?.geometry as { coordinates?: [number, number] } | undefined)?.coordinates;
-          if (clusterId === undefined || !coordinates) return;
-          const source = map.getSource("installations") as GeoJSONSource;
-          const zoom = await source.getClusterExpansionZoom(clusterId);
-          map.easeTo({ center: coordinates, zoom });
-        });
-        map.on("click", "individual-installations", (event: MapMouseEvent) => {
-          const feature = map.queryRenderedFeatures(event.point, { layers: ["individual-installations"] })[0];
-          if (!feature?.properties) return;
-          setSelected(feature.properties as Installation);
-        });
-        ["clusters", "individual-installations"].forEach((layer) => {
-          map.on("mouseenter", layer, () => { map.getCanvas().style.cursor = "pointer"; });
-          map.on("mouseleave", layer, () => { map.getCanvas().style.cursor = ""; });
-        });
+        },
+      });
+      const projectIcon = L.divIcon({
+        className: "solar-project-icon",
+        html: '<img src="/solar-map-pin.svg" alt="">',
+        iconSize: [38, 46],
+        iconAnchor: [19, 46],
+      });
+      installationData.installations.forEach((item) => {
+        const marker = L.marker([item.latitude, item.longitude], { icon: projectIcon, title: `Completed installation in ${item.suburb}` });
+        marker.on("click", () => setSelected(item));
+        clusters.addLayer(marker);
+      });
+      map.addLayer(clusters);
+      map.whenReady(() => {
+        setMapReady(true);
+        window.setTimeout(() => map.invalidateSize(), 80);
       });
     }
     initialise();
     return () => {
       cancelled = true;
-      userMarkerRef.current?.remove();
       mapRef.current?.remove();
       mapRef.current = null;
+      leafletRef.current = null;
     };
   }, [compact]);
 
   function choosePlace(place: SearchPlace) {
-    setQuery(place.label);
+    setQuery(place.postcode);
     setSelected(null);
-    showNearby(place.longitude, place.latitude, place.label);
+    showNearby(place.longitude, place.latitude, `Postcode ${place.postcode}`);
+  }
+
+  function submitPostcode(event: FormEvent) {
+    event.preventDefault();
+    const postcode = query.replace(/\D/g, "").slice(0, 4);
+    if (postcode.length !== 4) {
+      setStatus("Please enter a valid 4-digit Victorian postcode, for example 3150.");
+      return;
+    }
+    const place = places.find((item) => item.postcode === postcode);
+    if (!place) {
+      setStatus(`We do not have a mapped project for postcode ${postcode} yet. Try a nearby postcode or use your location.`);
+      return;
+    }
+    choosePlace(place);
   }
 
   function useMyLocation() {
     if (!navigator.geolocation) {
-      setStatus("Location is not available in this browser. Please search by suburb.");
+      setStatus("Location is not available in this browser. Please enter your 4-digit postcode.");
       return;
     }
     setLocating(true);
     navigator.geolocation.getCurrentPosition(
       (position) => {
         setLocating(false);
-        setQuery("Current location");
+        setQuery("");
         showNearby(position.coords.longitude, position.coords.latitude, "Your location");
       },
       () => {
         setLocating(false);
-        setStatus("We could not access your location. Please search by suburb or postcode.");
+        setStatus("We could not access your location. Please enter your 4-digit postcode instead.");
       },
       { enableHighAccuracy: true, timeout: 10000 },
     );
@@ -217,25 +188,31 @@ export function ProjectMap({ compact = false }: { compact?: boolean }) {
   return (
     <div className={`project-map-wrap ${compact ? "compact" : ""}`}>
       <div className="map-search-panel">
-        <div className="map-search-field">
-          <label htmlFor={`map-search-${compact ? "compact" : "full"}`}>See installations near you</label>
+        <form className="map-search-field" onSubmit={submitPostcode}>
+          <label htmlFor={`map-search-${compact ? "compact" : "full"}`}>Enter your postcode</label>
+          <p>See how many Solar People installations are near your home.</p>
           <div className="map-search-row">
             <input
               id={`map-search-${compact ? "compact" : "full"}`}
-              autoComplete="off"
+              autoComplete="postal-code"
+              inputMode="numeric"
+              maxLength={4}
+              pattern="[0-9]{4}"
               value={query}
-              onChange={(event) => setQuery(event.target.value)}
-              placeholder="Enter your suburb or postcode"
+              onChange={(event) => setQuery(event.target.value.replace(/\D/g, "").slice(0, 4))}
+              placeholder="Postcode, e.g. 3150"
+              aria-describedby={`map-help-${compact ? "compact" : "full"}`}
             />
-            <button type="button" onClick={useMyLocation}>{locating ? "Locating…" : "Use my location"}</button>
+            <button type="submit" disabled={!mapReady}>Show nearby</button>
           </div>
-          {suggestions.length > 0 && !places.some((place) => place.label === query) && (
+          <button className="map-location-button" type="button" onClick={useMyLocation}>{locating ? "Locating…" : "Or use my current location"}</button>
+          {suggestions.length > 0 && !places.some((place) => place.postcode === query) && (
             <div className="map-suggestions">
-              {suggestions.map((place) => <button type="button" key={place.label} onClick={() => choosePlace(place)}>{place.label}</button>)}
+              {suggestions.map((place) => <button type="button" key={place.postcode} onClick={() => choosePlace(place)}>{place.label}</button>)}
             </div>
           )}
-        </div>
-        <div className="map-search-result" aria-live="polite">
+        </form>
+        <div className="map-search-result" id={`map-help-${compact ? "compact" : "full"}`} aria-live="polite">
           <span>{status}</span>
           {counts && <div><strong>{counts.one}<small>within 1 km</small></strong><strong>{counts.three}<small>within 3 km</small></strong><strong>{counts.five}<small>within 5 km</small></strong></div>}
         </div>

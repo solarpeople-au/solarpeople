@@ -182,11 +182,14 @@ blockquote footer span{color:#7a8580;font-size:12px}
 .map-search-field,.map-search-result{background:rgba(6,17,14,.94);border:1px solid rgba(255,255,255,.12);box-shadow:0 14px 36px rgba(0,0,0,.24);backdrop-filter:blur(16px)}
 .map-search-field{position:relative;padding:13px 14px}
 .map-search-field label{display:block;color:#d8e5de;text-transform:uppercase;letter-spacing:.12em;font-size:9px;margin-bottom:7px}
+.map-search-field>p{margin:0 0 9px;color:#aebbb4;font-size:10px;line-height:1.4}
 .map-search-row{display:flex;gap:8px}
 .map-search-row input{min-width:0;flex:1;background:#fff;color:#07110f;border:0;padding:12px 13px;font:inherit;font-size:13px;outline:none}
 .map-search-row input:focus{box-shadow:inset 0 0 0 2px var(--green)}
 .map-search-row button{border:0;background:var(--green);color:#07110f;padding:0 14px;font:inherit;font-size:11px;font-weight:700;cursor:pointer;white-space:nowrap}
-.map-suggestions{position:absolute;left:14px;right:14px;top:73px;background:#fff;border:1px solid #dfe6e2;box-shadow:0 14px 30px rgba(0,0,0,.2);display:flex;flex-direction:column}
+.map-search-row button:disabled{opacity:.55;cursor:wait}
+.map-location-button{border:0;background:transparent;color:#b8c7bf;padding:8px 0 0;font:inherit;font-size:9px;text-decoration:underline;text-underline-offset:3px;cursor:pointer}
+.map-suggestions{position:absolute;left:14px;right:14px;top:103px;background:#fff;border:1px solid #dfe6e2;box-shadow:0 14px 30px rgba(0,0,0,.2);display:flex;flex-direction:column;z-index:1001}
 .map-suggestions button{border:0;border-bottom:1px solid #edf1ef;background:#fff;color:#14231e;text-align:left;padding:11px 13px;font:inherit;font-size:12px;cursor:pointer}
 .map-suggestions button:hover,.map-suggestions button:focus{background:#edfff3;color:#087d37}
 .map-search-result{padding:13px 15px;color:#dbe6e0;display:flex;flex-direction:column;justify-content:center}
@@ -195,6 +198,18 @@ blockquote footer span{color:#7a8580;font-size:12px}
 .map-search-result strong{color:var(--green);font-size:19px;display:flex;align-items:baseline;gap:5px}
 .map-search-result small{font-size:8px;color:#aebbb4;text-transform:uppercase;letter-spacing:.06em;font-weight:500}
 .map-home-marker{width:22px;height:22px;background:#fff;border:6px solid var(--green);border-radius:50%;box-shadow:0 0 0 7px rgba(24,205,91,.24),0 4px 12px rgba(0,0,0,.28)}
+.project-map-wrap .leaflet-container{font-family:var(--font-public-sans),Arial,sans-serif;background:#dfe6e1}
+.project-map-wrap .leaflet-tile-pane{filter:saturate(.58) contrast(.94) brightness(.98) sepia(.08)}
+.project-map-wrap .leaflet-control-zoom{margin-top:138px;border:0;box-shadow:0 5px 20px rgba(0,0,0,.18)}
+.project-map-wrap .leaflet-control-zoom a{color:#07110f;border-color:#e1e6e3;background:#fff}
+.project-map-wrap .leaflet-control-attribution{font-size:8px;background:rgba(255,255,255,.9)}
+.solar-project-icon{background:transparent;border:0}
+.solar-project-icon img{width:38px;height:46px;display:block;filter:drop-shadow(0 3px 4px rgba(5,15,12,.25))}
+.solar-cluster{border-radius:50%;display:grid;place-items:center;background:rgba(24,205,91,.2);border:1px solid rgba(24,205,91,.42)}
+.solar-cluster span{display:grid;place-items:center;width:calc(100% - 10px);height:calc(100% - 10px);margin:5px;border-radius:50%;background:var(--green);border:2px solid #fff;color:#07110f;font-size:11px;font-weight:800;box-shadow:0 4px 14px rgba(0,0,0,.2)}
+.solar-cluster-large span{font-size:13px}
+.map-home-icon{background:transparent;border:0}
+.map-home-icon .map-home-marker{display:block}
 .project-map-wrap .map-card{position:absolute;right:22px;bottom:48px;z-index:8;width:310px;background:rgba(6,17,14,.95);border:1px solid rgba(255,255,255,.12);padding:15px;display:flex;flex-direction:row;align-items:center;gap:12px;box-shadow:0 14px 34px rgba(0,0,0,.3)}
 .project-map-wrap .map-card img{width:33px;height:40px;flex:none}
 .project-map-wrap .map-card>div{display:flex;flex-direction:column;gap:3px;min-width:0}
@@ -211,8 +226,8 @@ blockquote footer span{color:#7a8580;font-size:12px}
   .map-search-result{display:none}
   .map-search-row{flex-direction:column}
   .map-search-row button{height:39px}
-  .map-suggestions{top:112px}
-  .project-map-wrap .maplibregl-ctrl-top-right{top:147px}
+  .map-suggestions{top:146px}
+  .project-map-wrap .leaflet-control-zoom{margin-top:190px}
   .project-map-wrap .map-card{left:10px;right:10px;bottom:39px;width:auto}
 }
 .about-simple{background:linear-gradient(120deg,rgba(5,15,11,.9),rgba(5,15,11,.55)),url("https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?auto=format&fit=crop&w=2000&q=85") center/cover}

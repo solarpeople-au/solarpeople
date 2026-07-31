@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Public_Sans } from "next/font/google";
-import "maplibre-gl/dist/maplibre-gl.css";
+import "leaflet/dist/leaflet.css";
+import "leaflet.markercluster/dist/MarkerCluster.css";
 import "./globals.css";
 
 const publicSans = Public_Sans({
