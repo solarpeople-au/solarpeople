@@ -7,7 +7,7 @@ import installationData from "../data/installations.json";
 
 type Installation = (typeof installationData.installations)[number];
 type SearchPlace = { label: string; suburb: string; postcode: string; latitude: number; longitude: number };
-type NearbyCounts = { one: number; three: number; five: number };
+type NearbyCounts = { five: number; ten: number };
 
 const MELBOURNE: [number, number] = [-37.82, 145.02];
 
@@ -26,9 +26,9 @@ export function ProjectMap({ compact = false }: { compact?: boolean }) {
   const mapRef = useRef<LeafletMap | null>(null);
   const leafletRef = useRef<typeof import("leaflet") | null>(null);
   const userMarkerRef = useRef<Marker | null>(null);
-  const radiusRef = useRef<Circle | null>(null);
+  const radiusRef = useRef<Circle[]>([]);
   const [query, setQuery] = useState("");
-  const [status, setStatus] = useState("Enter your 4-digit postcode to see completed installations near you.");
+  const [status, setStatus] = useState("Enter your 4-digit postcode to discover how many Solar People customers are already near you.");
   const [counts, setCounts] = useState<NearbyCounts | null>(null);
   const [selected, setSelected] = useState<Installation | null>(null);
   const [locating, setLocating] = useState(false);
@@ -62,19 +62,21 @@ export function ProjectMap({ compact = false }: { compact?: boolean }) {
     const center: [number, number] = [latitude, longitude];
     const distances = installationData.installations.map((item) => distanceKm(center, [item.latitude, item.longitude]));
     const nextCounts = {
-      one: distances.filter((distance) => distance <= 1).length,
-      three: distances.filter((distance) => distance <= 3).length,
       five: distances.filter((distance) => distance <= 5).length,
+      ten: distances.filter((distance) => distance <= 10).length,
     };
     setCounts(nextCounts);
-    setStatus(`${label} · ${nextCounts.three} installations within approximately 3 km`);
-    map.flyTo(center, 12, { duration: 1.15 });
+    setStatus(`${label} · You are surrounded by Solar People customers.`);
+    map.fitBounds(L.latLng(center).toBounds(22000), { padding: [36, 36], animate: true, duration: 1.15 });
 
     userMarkerRef.current?.remove();
-    radiusRef.current?.remove();
+    radiusRef.current.forEach((circle) => circle.remove());
     const homeIcon = L.divIcon({ className: "map-home-icon", html: '<span class="map-home-marker"></span>', iconSize: [34, 34], iconAnchor: [17, 17] });
     userMarkerRef.current = L.marker(center, { icon: homeIcon, zIndexOffset: 1200, title: "Your selected area" }).addTo(map);
-    radiusRef.current = L.circle(center, { radius: 3000, color: "#079944", weight: 2, dashArray: "7 7", fillColor: "#18cd5b", fillOpacity: 0.1 }).addTo(map);
+    radiusRef.current = [
+      L.circle(center, { radius: 10000, color: "#18cd5b", weight: 2, dashArray: "9 8", fillColor: "#18cd5b", fillOpacity: 0.07 }).addTo(map),
+      L.circle(center, { radius: 5000, color: "#079944", weight: 2, fillColor: "#18cd5b", fillOpacity: 0.15 }).addTo(map),
+    ];
   }, []);
 
   useEffect(() => {
@@ -187,34 +189,42 @@ export function ProjectMap({ compact = false }: { compact?: boolean }) {
 
   return (
     <div className={`project-map-wrap ${compact ? "compact" : ""}`}>
-      <div className="map-search-panel">
-        <form className="map-search-field" onSubmit={submitPostcode}>
-          <label htmlFor={`map-search-${compact ? "compact" : "full"}`}>Enter your postcode</label>
-          <p>See how many Solar People installations are near your home.</p>
-          <div className="map-search-row">
-            <input
-              id={`map-search-${compact ? "compact" : "full"}`}
-              autoComplete="postal-code"
-              inputMode="numeric"
-              maxLength={4}
-              pattern="[0-9]{4}"
-              value={query}
-              onChange={(event) => setQuery(event.target.value.replace(/\D/g, "").slice(0, 4))}
-              placeholder="Postcode, e.g. 3150"
-              aria-describedby={`map-help-${compact ? "compact" : "full"}`}
-            />
-            <button type="submit" disabled={!mapReady}>Show nearby</button>
+      <div className="map-trust-panel">
+        <div className="map-trust-copy">
+          <p className="kicker">Trusted by your neighbours</p>
+          <h2>Your choice is backed by the people around you.</h2>
+          <p>For seven years, Solar People has grown across Victoria through word of mouth. Enter your postcode and see how many nearby homes and businesses have already chosen us.</p>
+          <div className="map-trust-proof"><strong>{installationData.total}</strong><span>mapped installations across Victoria</span><strong>7+</strong><span>years built on customer referrals</span></div>
+        </div>
+        <div className="map-search-panel">
+          <form className="map-search-field" onSubmit={submitPostcode}>
+            <label htmlFor={`map-search-${compact ? "compact" : "full"}`}>How many customers are near you?</label>
+            <p>Enter your four-digit postcode to find out.</p>
+            <div className="map-search-row">
+              <input
+                id={`map-search-${compact ? "compact" : "full"}`}
+                autoComplete="postal-code"
+                inputMode="numeric"
+                maxLength={4}
+                pattern="[0-9]{4}"
+                value={query}
+                onChange={(event) => setQuery(event.target.value.replace(/\D/g, "").slice(0, 4))}
+                placeholder="Enter postcode — e.g. 3150"
+                aria-describedby={`map-help-${compact ? "compact" : "full"}`}
+              />
+              <button type="submit" disabled={!mapReady}>Show customers near me</button>
+            </div>
+            <button className="map-location-button" type="button" onClick={useMyLocation}>{locating ? "Locating…" : "Or use my current location"}</button>
+          </form>
+          <div className={`map-search-result ${counts ? "has-results" : ""}`} id={`map-help-${compact ? "compact" : "full"}`} aria-live="polite">
+            <span>{status}</span>
+            {counts && <div><strong>{counts.five}<small>customers within 5 km</small></strong><strong>{counts.ten}<small>customers within 10 km</small></strong></div>}
           </div>
-          <button className="map-location-button" type="button" onClick={useMyLocation}>{locating ? "Locating…" : "Or use my current location"}</button>
           {suggestions.length > 0 && !places.some((place) => place.postcode === query) && (
             <div className="map-suggestions">
               {suggestions.map((place) => <button type="button" key={place.postcode} onClick={() => choosePlace(place)}>{place.label}</button>)}
             </div>
           )}
-        </form>
-        <div className="map-search-result" id={`map-help-${compact ? "compact" : "full"}`} aria-live="polite">
-          <span>{status}</span>
-          {counts && <div><strong>{counts.one}<small>within 1 km</small></strong><strong>{counts.three}<small>within 3 km</small></strong><strong>{counts.five}<small>within 5 km</small></strong></div>}
         </div>
       </div>
       <div className="project-map" ref={containerRef} aria-label={`Interactive map of ${installationData.total} approximate Solar People installations across Melbourne`} />

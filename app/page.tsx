@@ -92,11 +92,11 @@ export default function Home() {
         <section className="section work-section">
           <div className="shell map-layout">
             <div className="map-copy">
-              <p className="kicker">Our work across Melbourne</p>
-              <h2>Local experience you can see.</h2>
+              <p className="kicker">Trusted across Victoria</p>
+              <h2>See how many customers are already near you.</h2>
                 <p>
-                  Enter your postcode to explore residential, commercial and
-                  battery installations completed near you.
+                  Seven years of installations, built through customer referrals.
+                  Enter your postcode to see the trust around your neighbourhood.
                 </p>
               <div className="map-stat">
                 <strong>747</strong><span>completed projects mapped across metropolitan Melbourne</span>

@@ -10,7 +10,7 @@ export default function WorkPage() {
     <>
       <SiteHeader />
       <main>
-        <section className="simple-hero"><div className="shell"><p className="eyebrow"><span />Our work</p><h1>Solar installations across Melbourne.</h1><p>Enter your postcode to explore completed projects nearby and see the depth of our local experience.</p></div></section>
+        <section className="simple-hero"><div className="shell"><p className="eyebrow"><span />Trusted across Victoria</p><h1>See how many Solar People customers are near you.</h1><p>Seven years of installations, built largely through word of mouth. Enter your postcode and discover how many nearby homes and businesses have already chosen us.</p></div></section>
         <section className="section map-page"><div className="shell"><ProjectMap /></div></section>
         <section className="section testimonials-section">
           <div className="shell content-split">
