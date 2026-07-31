@@ -1,0 +1,6067 @@
+{
+  "generatedAt": "2026-07-31T09:55:49.580Z",
+  "source": "Solar People historical works list; public coordinates are suburb-level approximations using Vicmap Admin locality centroids.",
+  "privacy": "No street addresses are included. Public points are deterministically offset from locality centroids.",
+  "total": 747,
+  "suburbs": 221,
+  "topSuburbs": [
+    [
+      "Glen Waverley",
+      47
+    ],
+    [
+      "Doncaster East",
+      24
+    ],
+    [
+      "Keysborough",
+      19
+    ],
+    [
+      "Templestowe",
+      19
+    ],
+    [
+      "Mount Waverley",
+      18
+    ],
+    [
+      "Balwyn North",
+      17
+    ],
+    [
+      "Berwick",
+      16
+    ],
+    [
+      "Wheelers Hill",
+      14
+    ],
+    [
+      "Donvale",
+      11
+    ],
+    [
+      "Burwood East",
+      10
+    ],
+    [
+      "Camberwell",
+      9
+    ],
+    [
+      "Doncaster",
+      9
+    ],
+    [
+      "Clyde North",
+      9
+    ],
+    [
+      "Oakleigh South",
+      8
+    ],
+    [
+      "Bulleen",
+      8
+    ],
+    [
+      "Glen Iris",
+      8
+    ],
+    [
+      "Templestowe Lower",
+      7
+    ],
+    [
+      "Mulgrave",
+      7
+    ],
+    [
+      "Frankston",
+      7
+    ],
+    [
+      "Narre Warren",
+      7
+    ]
+  ],
+  "installations": [
+    {
+      "id": "sp-0001",
+      "suburb": "Kew East",
+      "postcode": null,
+      "latitude": -37.789665,
+      "longitude": 145.049053,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0002",
+      "suburb": "Ivanhoe East",
+      "postcode": null,
+      "latitude": -37.77931,
+      "longitude": 145.061952,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0003",
+      "suburb": "Camberwell",
+      "postcode": null,
+      "latitude": -37.83514,
+      "longitude": 145.076037,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0004",
+      "suburb": "Cranbourne North",
+      "postcode": null,
+      "latitude": -38.082177,
+      "longitude": 145.296749,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0005",
+      "suburb": "Eaglemont",
+      "postcode": null,
+      "latitude": -37.768723,
+      "longitude": 145.061189,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0006",
+      "suburb": "The Patch",
+      "postcode": null,
+      "latitude": -37.889079,
+      "longitude": 145.397386,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0007",
+      "suburb": "Donvale",
+      "postcode": "3111",
+      "latitude": -37.793558,
+      "longitude": 145.194065,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0008",
+      "suburb": "Reservoir",
+      "postcode": "3073",
+      "latitude": -37.718367,
+      "longitude": 145.008472,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0009",
+      "suburb": "Carlton North",
+      "postcode": "3054",
+      "latitude": -37.788953,
+      "longitude": 144.96101,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0010",
+      "suburb": "Kensington",
+      "postcode": "3031",
+      "latitude": -37.798889,
+      "longitude": 144.924977,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0011",
+      "suburb": "St Albans",
+      "postcode": "3021",
+      "latitude": -37.749032,
+      "longitude": 144.802389,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0012",
+      "suburb": "Warrandyte",
+      "postcode": "3113",
+      "latitude": -37.74582,
+      "longitude": 145.213003,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0013",
+      "suburb": "Oakleigh South",
+      "postcode": "3167",
+      "latitude": -37.927615,
+      "longitude": 145.096946,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0014",
+      "suburb": "Bulleen",
+      "postcode": null,
+      "latitude": -37.769473,
+      "longitude": 145.083772,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0015",
+      "suburb": "Dandenong North",
+      "postcode": "3175",
+      "latitude": -37.963606,
+      "longitude": 145.214607,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0016",
+      "suburb": "Templestowe Lower",
+      "postcode": "3107",
+      "latitude": -37.768494,
+      "longitude": 145.114948,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0017",
+      "suburb": "St Albans",
+      "postcode": null,
+      "latitude": -37.745652,
+      "longitude": 144.808249,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0018",
+      "suburb": "Oakleigh South",
+      "postcode": "3167",
+      "latitude": -37.925668,
+      "longitude": 145.090786,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0019",
+      "suburb": "Werribee South",
+      "postcode": "3030",
+      "latitude": -37.941519,
+      "longitude": 144.70261,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0020",
+      "suburb": "Oakleigh",
+      "postcode": "3166",
+      "latitude": -37.898416,
+      "longitude": 145.087397,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0021",
+      "suburb": "Mulgrave",
+      "postcode": null,
+      "latitude": -37.918492,
+      "longitude": 145.171934,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0022",
+      "suburb": "Frankston",
+      "postcode": "3199",
+      "latitude": -38.146485,
+      "longitude": 145.139851,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0023",
+      "suburb": "Hampton Park",
+      "postcode": null,
+      "latitude": -38.03411,
+      "longitude": 145.260775,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0024",
+      "suburb": "Edithvale",
+      "postcode": "3196",
+      "latitude": -38.037075,
+      "longitude": 145.109981,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0025",
+      "suburb": "Glenroy",
+      "postcode": null,
+      "latitude": -37.706089,
+      "longitude": 144.929522,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0027",
+      "suburb": "Deanside",
+      "postcode": "3335",
+      "latitude": -37.732735,
+      "longitude": 144.698086,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0028",
+      "suburb": "Mount Eliza",
+      "postcode": "3930",
+      "latitude": -38.194708,
+      "longitude": 145.100291,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0029",
+      "suburb": "Williamstown",
+      "postcode": "3016",
+      "latitude": -37.857497,
+      "longitude": 144.883707,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0030",
+      "suburb": "Templestowe Lower",
+      "postcode": "3107",
+      "latitude": -37.761513,
+      "longitude": 145.10317,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0031",
+      "suburb": "Donvale",
+      "postcode": "3111",
+      "latitude": -37.791026,
+      "longitude": 145.195388,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0032",
+      "suburb": "Epping",
+      "postcode": "3076",
+      "latitude": -37.636926,
+      "longitude": 145.01939,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0033",
+      "suburb": "Narre Warren",
+      "postcode": null,
+      "latitude": -38.011318,
+      "longitude": 145.303863,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0034",
+      "suburb": "Heidelberg",
+      "postcode": "3084",
+      "latitude": -37.756167,
+      "longitude": 145.065118,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0035",
+      "suburb": "Doreen",
+      "postcode": "3754",
+      "latitude": -37.593677,
+      "longitude": 145.13837,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0036",
+      "suburb": "Wantirna South",
+      "postcode": null,
+      "latitude": -37.874726,
+      "longitude": 145.211787,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0037",
+      "suburb": "Forest Hill",
+      "postcode": "3131",
+      "latitude": -37.84446,
+      "longitude": 145.17024,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0038",
+      "suburb": "Essendon",
+      "postcode": "3040",
+      "latitude": -37.752173,
+      "longitude": 144.906459,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0039",
+      "suburb": "Aintree",
+      "postcode": "3336",
+      "latitude": -37.718934,
+      "longitude": 144.659144,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0040",
+      "suburb": "Berwick",
+      "postcode": null,
+      "latitude": -38.046171,
+      "longitude": 145.352168,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0041",
+      "suburb": "Burwood East",
+      "postcode": "3151",
+      "latitude": -37.853682,
+      "longitude": 145.158313,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0042",
+      "suburb": "Croydon South",
+      "postcode": "3136",
+      "latitude": -37.815168,
+      "longitude": 145.274458,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0043",
+      "suburb": "Burnside",
+      "postcode": "3023",
+      "latitude": -37.747243,
+      "longitude": 144.74378,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0044",
+      "suburb": "Mentone",
+      "postcode": null,
+      "latitude": -37.978809,
+      "longitude": 145.06747,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0045",
+      "suburb": "Frankston South",
+      "postcode": "3199",
+      "latitude": -38.178983,
+      "longitude": 145.132208,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0046",
+      "suburb": "Clayton South",
+      "postcode": null,
+      "latitude": -37.946583,
+      "longitude": 145.122499,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0047",
+      "suburb": "Bulleen",
+      "postcode": "3105",
+      "latitude": -37.766289,
+      "longitude": 145.096746,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0048",
+      "suburb": "Hampton Park",
+      "postcode": "3976",
+      "latitude": -38.040818,
+      "longitude": 145.260107,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0049",
+      "suburb": "Warranwood",
+      "postcode": "3134",
+      "latitude": -37.77392,
+      "longitude": 145.240425,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0050",
+      "suburb": "Doveton",
+      "postcode": "3177",
+      "latitude": -37.987636,
+      "longitude": 145.233143,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0051",
+      "suburb": "Keilor East",
+      "postcode": null,
+      "latitude": -37.736278,
+      "longitude": 144.854364,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0052",
+      "suburb": "Blackburn",
+      "postcode": "3130",
+      "latitude": -37.8263,
+      "longitude": 145.157169,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0053",
+      "suburb": "Eltham",
+      "postcode": "3095",
+      "latitude": -37.719366,
+      "longitude": 145.151134,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0054",
+      "suburb": "Wheelers Hill",
+      "postcode": null,
+      "latitude": -37.908687,
+      "longitude": 145.189774,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0055",
+      "suburb": "Tarneit",
+      "postcode": "3029",
+      "latitude": -37.83579,
+      "longitude": 144.66846,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0056",
+      "suburb": "Rye",
+      "postcode": "3941",
+      "latitude": -38.389783,
+      "longitude": 144.809873,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0057",
+      "suburb": "Bayswater North",
+      "postcode": "3153",
+      "latitude": -37.824787,
+      "longitude": 145.277396,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0058",
+      "suburb": "Narre Warren North",
+      "postcode": "3804",
+      "latitude": -37.985091,
+      "longitude": 145.305985,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0059",
+      "suburb": "Lynbrook",
+      "postcode": null,
+      "latitude": -38.056781,
+      "longitude": 145.264838,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0060",
+      "suburb": "Endeavour Hills",
+      "postcode": "3802",
+      "latitude": -37.968179,
+      "longitude": 145.253983,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0061",
+      "suburb": "Wollert",
+      "postcode": "3750",
+      "latitude": -37.587533,
+      "longitude": 144.999281,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0062",
+      "suburb": "The Basin",
+      "postcode": "3154",
+      "latitude": -37.852832,
+      "longitude": 145.318667,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0063",
+      "suburb": "Glen Waverley",
+      "postcode": "3150",
+      "latitude": -37.883422,
+      "longitude": 145.176258,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0064",
+      "suburb": "Rye",
+      "postcode": "3941",
+      "latitude": -38.388235,
+      "longitude": 144.821603,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0065",
+      "suburb": "Narre Warren",
+      "postcode": null,
+      "latitude": -38.026343,
+      "longitude": 145.307052,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0066",
+      "suburb": "Coronet Bay",
+      "postcode": null,
+      "latitude": -38.429819,
+      "longitude": 145.447868,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0068",
+      "suburb": "Doncaster",
+      "postcode": "3108",
+      "latitude": -37.787733,
+      "longitude": 145.125446,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0069",
+      "suburb": "Wollert",
+      "postcode": "3750",
+      "latitude": -37.594385,
+      "longitude": 144.997787,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0070",
+      "suburb": "Belgrave South",
+      "postcode": "3160",
+      "latitude": -37.940543,
+      "longitude": 145.354696,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0071",
+      "suburb": "Viewbank",
+      "postcode": "3084",
+      "latitude": -37.739626,
+      "longitude": 145.096768,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0072",
+      "suburb": "Blackburn North",
+      "postcode": "3130",
+      "latitude": -37.800421,
+      "longitude": 145.157411,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0073",
+      "suburb": "Caroline Springs",
+      "postcode": "3023",
+      "latitude": -37.733841,
+      "longitude": 144.742169,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0074",
+      "suburb": "Frankston",
+      "postcode": "3199",
+      "latitude": -38.141781,
+      "longitude": 145.141006,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0075",
+      "suburb": "Rowville",
+      "postcode": null,
+      "latitude": -37.926932,
+      "longitude": 145.236947,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0076",
+      "suburb": "Cranbourne West",
+      "postcode": null,
+      "latitude": -38.099945,
+      "longitude": 145.257095,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0077",
+      "suburb": "St Albans",
+      "postcode": "3021",
+      "latitude": -37.742056,
+      "longitude": 144.81225,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0078",
+      "suburb": "Sunshine",
+      "postcode": "3020",
+      "latitude": -37.794413,
+      "longitude": 144.830606,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0079",
+      "suburb": "Doncaster",
+      "postcode": null,
+      "latitude": -37.77895,
+      "longitude": 145.121972,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0080",
+      "suburb": "Whittington",
+      "postcode": null,
+      "latitude": -38.17977,
+      "longitude": 144.388421,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0081",
+      "suburb": "Lalor",
+      "postcode": "3075",
+      "latitude": -37.66573,
+      "longitude": 145.01503,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0082",
+      "suburb": "Brighton",
+      "postcode": null,
+      "latitude": -37.904486,
+      "longitude": 144.993579,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0084",
+      "suburb": "Craigieburn",
+      "postcode": "3064",
+      "latitude": -37.579498,
+      "longitude": 144.928394,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0085",
+      "suburb": "Campbellfield",
+      "postcode": "3061",
+      "latitude": -37.667155,
+      "longitude": 144.95913,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0086",
+      "suburb": "Lilydale",
+      "postcode": "3140",
+      "latitude": -37.753285,
+      "longitude": 145.363197,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0087",
+      "suburb": "St Albans",
+      "postcode": "3021",
+      "latitude": -37.744686,
+      "longitude": 144.79548,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0088",
+      "suburb": "Keysborough",
+      "postcode": "3173",
+      "latitude": -38.005756,
+      "longitude": 145.173938,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0091",
+      "suburb": "Kensington",
+      "postcode": "3031",
+      "latitude": -37.794702,
+      "longitude": 144.933728,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0092",
+      "suburb": "Oak Park",
+      "postcode": "3046",
+      "latitude": -37.717356,
+      "longitude": 144.912304,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0093",
+      "suburb": "St Albans",
+      "postcode": "3021",
+      "latitude": -37.740907,
+      "longitude": 144.803881,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0095",
+      "suburb": "Mooroolbark",
+      "postcode": null,
+      "latitude": -37.782714,
+      "longitude": 145.335,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0096",
+      "suburb": "Mambourin",
+      "postcode": "3024",
+      "latitude": -37.902044,
+      "longitude": 144.554976,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0097",
+      "suburb": "Wallan",
+      "postcode": "3756",
+      "latitude": -37.4032,
+      "longitude": 144.959049,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0098",
+      "suburb": "Craigieburn",
+      "postcode": "3064",
+      "latitude": -37.587912,
+      "longitude": 144.933125,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0101",
+      "suburb": "Boronia",
+      "postcode": "3155",
+      "latitude": -37.857979,
+      "longitude": 145.28341,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0102",
+      "suburb": "South Morang",
+      "postcode": "3752",
+      "latitude": -37.632128,
+      "longitude": 145.081547,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0103",
+      "suburb": "Berwick",
+      "postcode": "3806",
+      "latitude": -38.035224,
+      "longitude": 145.344717,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0104",
+      "suburb": "Manor Lakes",
+      "postcode": "3024",
+      "latitude": -37.863849,
+      "longitude": 144.577335,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0105",
+      "suburb": "Ringwood",
+      "postcode": "3134",
+      "latitude": -37.805646,
+      "longitude": 145.231693,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0106",
+      "suburb": "Kalkallo",
+      "postcode": "3064",
+      "latitude": -37.527446,
+      "longitude": 144.965382,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0107",
+      "suburb": "Blackburn",
+      "postcode": "3130",
+      "latitude": -37.817572,
+      "longitude": 145.147411,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0108",
+      "suburb": "Frankston",
+      "postcode": null,
+      "latitude": -38.152283,
+      "longitude": 145.142656,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0109",
+      "suburb": "Werribee",
+      "postcode": "3030",
+      "latitude": -37.911242,
+      "longitude": 144.63943,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0110",
+      "suburb": "Taylors Hill",
+      "postcode": "3037",
+      "latitude": -37.715957,
+      "longitude": 144.755875,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0112",
+      "suburb": "Berwick",
+      "postcode": null,
+      "latitude": -38.040729,
+      "longitude": 145.353221,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0113",
+      "suburb": "Wallan",
+      "postcode": "3756",
+      "latitude": -37.406011,
+      "longitude": 144.957606,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0114",
+      "suburb": "Clyde North",
+      "postcode": "3978",
+      "latitude": -38.099171,
+      "longitude": 145.363876,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0116",
+      "suburb": "Harkness",
+      "postcode": "3337",
+      "latitude": -37.650458,
+      "longitude": 144.544868,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0118",
+      "suburb": "Richmond",
+      "postcode": "3121",
+      "latitude": -37.823811,
+      "longitude": 144.999487,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0119",
+      "suburb": "Narre Warren",
+      "postcode": "3805",
+      "latitude": -38.012784,
+      "longitude": 145.303781,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0120",
+      "suburb": "Officer",
+      "postcode": "3809",
+      "latitude": -38.050644,
+      "longitude": 145.410116,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0121",
+      "suburb": "South Morang",
+      "postcode": "3752",
+      "latitude": -37.636888,
+      "longitude": 145.080941,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0122",
+      "suburb": "Cheltenham",
+      "postcode": "3192",
+      "latitude": -37.963703,
+      "longitude": 145.07039,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0123",
+      "suburb": "Newington",
+      "postcode": null,
+      "latitude": -37.562858,
+      "longitude": 143.822341,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0124",
+      "suburb": "Delacombe",
+      "postcode": null,
+      "latitude": -37.583551,
+      "longitude": 143.808894,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0127",
+      "suburb": "Kings Park",
+      "postcode": "3021",
+      "latitude": -37.733261,
+      "longitude": 144.775989,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0129",
+      "suburb": "Berwick",
+      "postcode": "3806",
+      "latitude": -38.039834,
+      "longitude": 145.343232,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0130",
+      "suburb": "Ormond",
+      "postcode": "3204",
+      "latitude": -37.901681,
+      "longitude": 145.044578,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0131",
+      "suburb": "Yarraville",
+      "postcode": "3013",
+      "latitude": -37.814835,
+      "longitude": 144.882182,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0132",
+      "suburb": "Fraser Rise",
+      "postcode": "3336",
+      "latitude": -37.7109,
+      "longitude": 144.716054,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0133",
+      "suburb": "Mentone",
+      "postcode": "3194",
+      "latitude": -37.973655,
+      "longitude": 145.071006,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0134",
+      "suburb": "Werribee",
+      "postcode": "3030",
+      "latitude": -37.901725,
+      "longitude": 144.637322,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0135",
+      "suburb": "Sunbury",
+      "postcode": "3429",
+      "latitude": -37.552234,
+      "longitude": 144.708794,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0136",
+      "suburb": "Hughesdale",
+      "postcode": "3166",
+      "latitude": -37.898687,
+      "longitude": 145.085788,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0138",
+      "suburb": "Clyde North",
+      "postcode": null,
+      "latitude": -38.1089,
+      "longitude": 145.360471,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0139",
+      "suburb": "Bentleigh East",
+      "postcode": null,
+      "latitude": -37.923685,
+      "longitude": 145.075752,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0140",
+      "suburb": "Mernda",
+      "postcode": "3754",
+      "latitude": -37.598718,
+      "longitude": 145.080943,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0141",
+      "suburb": "Sunshine North",
+      "postcode": "3020",
+      "latitude": -37.757153,
+      "longitude": 144.836721,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0142",
+      "suburb": "Pakenham",
+      "postcode": "3810",
+      "latitude": -38.071727,
+      "longitude": 145.489438,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0143",
+      "suburb": "Doncaster",
+      "postcode": null,
+      "latitude": -37.790014,
+      "longitude": 145.131434,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0144",
+      "suburb": "Doncaster East",
+      "postcode": null,
+      "latitude": -37.780004,
+      "longitude": 145.159629,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0145",
+      "suburb": "Endeavour Hills",
+      "postcode": null,
+      "latitude": -37.970335,
+      "longitude": 145.260925,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0146",
+      "suburb": "Doreen",
+      "postcode": null,
+      "latitude": -37.597433,
+      "longitude": 145.139782,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0147",
+      "suburb": "Bentleigh East",
+      "postcode": "3165",
+      "latitude": -37.920568,
+      "longitude": 145.073407,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0148",
+      "suburb": "Burwood East",
+      "postcode": null,
+      "latitude": -37.852213,
+      "longitude": 145.152791,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0149",
+      "suburb": "Wollert",
+      "postcode": "3750",
+      "latitude": -37.596513,
+      "longitude": 145.010161,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0150",
+      "suburb": "Camberwell",
+      "postcode": "3124",
+      "latitude": -37.833932,
+      "longitude": 145.06603,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0151",
+      "suburb": "Wattle Glen",
+      "postcode": "3096",
+      "latitude": -37.673566,
+      "longitude": 145.190655,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0152",
+      "suburb": "Montrose",
+      "postcode": "3765",
+      "latitude": -37.807013,
+      "longitude": 145.353619,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0153",
+      "suburb": "Doreen",
+      "postcode": null,
+      "latitude": -37.601655,
+      "longitude": 145.135816,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0154",
+      "suburb": "Strathmore",
+      "postcode": null,
+      "latitude": -37.728928,
+      "longitude": 144.919377,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0156",
+      "suburb": "Donvale",
+      "postcode": "3111",
+      "latitude": -37.787175,
+      "longitude": 145.189081,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0157",
+      "suburb": "Clematis",
+      "postcode": "3782",
+      "latitude": -37.9317,
+      "longitude": 145.423502,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0158",
+      "suburb": "Junction Village",
+      "postcode": "3977",
+      "latitude": -38.138602,
+      "longitude": 145.281869,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0159",
+      "suburb": "Craigieburn",
+      "postcode": null,
+      "latitude": -37.593035,
+      "longitude": 144.928427,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0160",
+      "suburb": "Craigieburn",
+      "postcode": "3064",
+      "latitude": -37.583654,
+      "longitude": 144.929043,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0161",
+      "suburb": "Keysborough",
+      "postcode": "3173",
+      "latitude": -38.003403,
+      "longitude": 145.170928,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0162",
+      "suburb": "Botanic Ridge",
+      "postcode": "3977",
+      "latitude": -38.144645,
+      "longitude": 145.263657,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0163",
+      "suburb": "Craigieburn",
+      "postcode": "3064",
+      "latitude": -37.584714,
+      "longitude": 144.93526,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0165",
+      "suburb": "Rockbank",
+      "postcode": "3335",
+      "latitude": -37.725834,
+      "longitude": 144.649955,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0166",
+      "suburb": "Vermont South",
+      "postcode": "3133",
+      "latitude": -37.851206,
+      "longitude": 145.182501,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0167",
+      "suburb": "Greenvale",
+      "postcode": "3059",
+      "latitude": -37.637698,
+      "longitude": 144.875218,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0168",
+      "suburb": "Doncaster East",
+      "postcode": "3109",
+      "latitude": -37.774637,
+      "longitude": 145.157382,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0169",
+      "suburb": "Sunbury",
+      "postcode": "3429",
+      "latitude": -37.546699,
+      "longitude": 144.711893,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0170",
+      "suburb": "Chirnside Park",
+      "postcode": "3116",
+      "latitude": -37.743368,
+      "longitude": 145.321292,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0172",
+      "suburb": "Ivanhoe",
+      "postcode": "3079",
+      "latitude": -37.765189,
+      "longitude": 145.047672,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0173",
+      "suburb": "Burnside",
+      "postcode": "3023",
+      "latitude": -37.747278,
+      "longitude": 144.749292,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0174",
+      "suburb": "Burnside Heights",
+      "postcode": "3023",
+      "latitude": -37.736565,
+      "longitude": 144.760319,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0175",
+      "suburb": "Endeavour Hills",
+      "postcode": "3802",
+      "latitude": -37.9718,
+      "longitude": 145.246798,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0176",
+      "suburb": "Noble Park",
+      "postcode": "3174",
+      "latitude": -37.969852,
+      "longitude": 145.185511,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0177",
+      "suburb": "Mill Park",
+      "postcode": "3082",
+      "latitude": -37.659129,
+      "longitude": 145.065045,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0178",
+      "suburb": "Bundoora",
+      "postcode": null,
+      "latitude": -37.695602,
+      "longitude": 145.066126,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0182",
+      "suburb": "Templestowe",
+      "postcode": "3106",
+      "latitude": -37.750225,
+      "longitude": 145.145166,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0184",
+      "suburb": "Balwyn North",
+      "postcode": "3104",
+      "latitude": -37.790068,
+      "longitude": 145.086392,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0185",
+      "suburb": "Mitcham",
+      "postcode": null,
+      "latitude": -37.820658,
+      "longitude": 145.204695,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0187",
+      "suburb": "Epping",
+      "postcode": "3076",
+      "latitude": -37.640613,
+      "longitude": 145.018874,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0188",
+      "suburb": "Chelsea Heights",
+      "postcode": "3196",
+      "latitude": -38.037915,
+      "longitude": 145.125812,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0190",
+      "suburb": "Mill Park",
+      "postcode": "3082",
+      "latitude": -37.66338,
+      "longitude": 145.069522,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0192",
+      "suburb": "Greenvale",
+      "postcode": "3059",
+      "latitude": -37.635131,
+      "longitude": 144.883218,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0193",
+      "suburb": "Lilydale",
+      "postcode": "3140",
+      "latitude": -37.757869,
+      "longitude": 145.37441,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0194",
+      "suburb": "Forest Hill",
+      "postcode": null,
+      "latitude": -37.835677,
+      "longitude": 145.168813,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0195",
+      "suburb": "Donnybrook",
+      "postcode": "3064",
+      "latitude": -37.538877,
+      "longitude": 144.999763,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0196",
+      "suburb": "Wimbledon Heights",
+      "postcode": null,
+      "latitude": -38.476689,
+      "longitude": 145.242381,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0198",
+      "suburb": "Wandong",
+      "postcode": "3758",
+      "latitude": -37.349452,
+      "longitude": 145.036145,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0200",
+      "suburb": "Highett",
+      "postcode": null,
+      "latitude": -37.950179,
+      "longitude": 145.033726,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0201",
+      "suburb": "Sandhurst",
+      "postcode": "3977",
+      "latitude": -38.084198,
+      "longitude": 145.207144,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0204",
+      "suburb": "Gowanbrae",
+      "postcode": null,
+      "latitude": -37.701636,
+      "longitude": 144.905325,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0205",
+      "suburb": "Lilydale",
+      "postcode": "3140",
+      "latitude": -37.753037,
+      "longitude": 145.369802,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0206",
+      "suburb": "Donnybrook",
+      "postcode": "3064",
+      "latitude": -37.537404,
+      "longitude": 144.993023,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0209",
+      "suburb": "Manor Lakes",
+      "postcode": "3024",
+      "latitude": -37.859979,
+      "longitude": 144.578881,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0212",
+      "suburb": "Croydon",
+      "postcode": "3136",
+      "latitude": -37.795609,
+      "longitude": 145.276032,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0213",
+      "suburb": "Pentland Hills",
+      "postcode": "3340",
+      "latitude": -37.648472,
+      "longitude": 144.378509,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0214",
+      "suburb": "Endeavour Hills",
+      "postcode": "3802",
+      "latitude": -37.967263,
+      "longitude": 145.259013,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0215",
+      "suburb": "Wollert",
+      "postcode": "3750",
+      "latitude": -37.596224,
+      "longitude": 145.011063,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0217",
+      "suburb": "Thomastown",
+      "postcode": null,
+      "latitude": -37.679578,
+      "longitude": 145.002363,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0218",
+      "suburb": "Greenvale",
+      "postcode": null,
+      "latitude": -37.637683,
+      "longitude": 144.882589,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0219",
+      "suburb": "St Andrews",
+      "postcode": null,
+      "latitude": -37.581202,
+      "longitude": 145.289458,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0220",
+      "suburb": "Caulfield North",
+      "postcode": "3161",
+      "latitude": -37.872219,
+      "longitude": 145.017144,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0221",
+      "suburb": "Thornbury",
+      "postcode": null,
+      "latitude": -37.756735,
+      "longitude": 145.008122,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0222",
+      "suburb": "Blackburn South",
+      "postcode": "3130",
+      "latitude": -37.838247,
+      "longitude": 145.149285,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0224",
+      "suburb": "Doncaster East",
+      "postcode": null,
+      "latitude": -37.78089,
+      "longitude": 145.159868,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0225",
+      "suburb": "Lower Plenty",
+      "postcode": null,
+      "latitude": -37.745191,
+      "longitude": 145.119439,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0226",
+      "suburb": "Wonga Park",
+      "postcode": "3115",
+      "latitude": -37.732389,
+      "longitude": 145.273172,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0227",
+      "suburb": "Armadale",
+      "postcode": null,
+      "latitude": -37.856616,
+      "longitude": 145.015995,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0229",
+      "suburb": "Kilsyth South",
+      "postcode": "3137",
+      "latitude": -37.831215,
+      "longitude": 145.307346,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0230",
+      "suburb": "Chirnside Park",
+      "postcode": "3116",
+      "latitude": -37.739688,
+      "longitude": 145.317123,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0231",
+      "suburb": "Deer Park",
+      "postcode": "3023",
+      "latitude": -37.764334,
+      "longitude": 144.776321,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0232",
+      "suburb": "Doreen",
+      "postcode": "3754",
+      "latitude": -37.597394,
+      "longitude": 145.134881,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0233",
+      "suburb": "Bundoora",
+      "postcode": "3083",
+      "latitude": -37.701813,
+      "longitude": 145.06801,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0235",
+      "suburb": "Reservoir",
+      "postcode": "3073",
+      "latitude": -37.716909,
+      "longitude": 145.012488,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0236",
+      "suburb": "Heidelberg Heights",
+      "postcode": "3081",
+      "latitude": -37.747426,
+      "longitude": 145.060525,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0237",
+      "suburb": "Mooroolbark",
+      "postcode": "3138",
+      "latitude": -37.784444,
+      "longitude": 145.328896,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0238",
+      "suburb": "Templestowe",
+      "postcode": null,
+      "latitude": -37.754031,
+      "longitude": 145.145642,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0239",
+      "suburb": "Ferntree Gully",
+      "postcode": null,
+      "latitude": -37.889739,
+      "longitude": 145.280797,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0240",
+      "suburb": "Epping",
+      "postcode": "3076",
+      "latitude": -37.632756,
+      "longitude": 145.007953,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0241",
+      "suburb": "Seymour",
+      "postcode": null,
+      "latitude": -37.012158,
+      "longitude": 145.164513,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0242",
+      "suburb": "Doncaster East",
+      "postcode": null,
+      "latitude": -37.774398,
+      "longitude": 145.171587,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0244",
+      "suburb": "Caulfield North",
+      "postcode": "3161",
+      "latitude": -37.865116,
+      "longitude": 145.024103,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0245",
+      "suburb": "Wollert",
+      "postcode": "3750",
+      "latitude": -37.597519,
+      "longitude": 145.010075,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0246",
+      "suburb": "Doreen",
+      "postcode": "3754",
+      "latitude": -37.595682,
+      "longitude": 145.139002,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0247",
+      "suburb": "Diamond Creek",
+      "postcode": "3089",
+      "latitude": -37.670455,
+      "longitude": 145.158052,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0248",
+      "suburb": "Burwood East",
+      "postcode": null,
+      "latitude": -37.857287,
+      "longitude": 145.15496,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0249",
+      "suburb": "Clyde North",
+      "postcode": "3978",
+      "latitude": -38.100554,
+      "longitude": 145.355395,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0252",
+      "suburb": "Diamond Creek",
+      "postcode": "3089",
+      "latitude": -37.670746,
+      "longitude": 145.149417,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0253",
+      "suburb": "Mont Albert North",
+      "postcode": null,
+      "latitude": -37.808766,
+      "longitude": 145.111054,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0254",
+      "suburb": "Mitcham",
+      "postcode": null,
+      "latitude": -37.811456,
+      "longitude": 145.197358,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0255",
+      "suburb": "Langwarrin",
+      "postcode": "3910",
+      "latitude": -38.154276,
+      "longitude": 145.193079,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0256",
+      "suburb": "Clyde North",
+      "postcode": null,
+      "latitude": -38.100614,
+      "longitude": 145.354011,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0257",
+      "suburb": "Keilor Downs",
+      "postcode": "3038",
+      "latitude": -37.718275,
+      "longitude": 144.802705,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0258",
+      "suburb": "Doncaster",
+      "postcode": null,
+      "latitude": -37.788746,
+      "longitude": 145.122933,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0259",
+      "suburb": "Doncaster East",
+      "postcode": "3109",
+      "latitude": -37.774167,
+      "longitude": 145.171416,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0261",
+      "suburb": "Cape Woolamai",
+      "postcode": "3925",
+      "latitude": -38.547427,
+      "longitude": 145.346788,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0262",
+      "suburb": "Whittlesea",
+      "postcode": "3757",
+      "latitude": -37.459713,
+      "longitude": 145.129217,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0263",
+      "suburb": "Bulleen",
+      "postcode": "3105",
+      "latitude": -37.770865,
+      "longitude": 145.090553,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0264",
+      "suburb": "Truganina",
+      "postcode": "3029",
+      "latitude": -37.795849,
+      "longitude": 144.706219,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0266",
+      "suburb": "Ashwood",
+      "postcode": null,
+      "latitude": -37.866765,
+      "longitude": 145.11083,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0267",
+      "suburb": "Braybrook",
+      "postcode": "3019",
+      "latitude": -37.785467,
+      "longitude": 144.857382,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0268",
+      "suburb": "Maribyrnong",
+      "postcode": "3032",
+      "latitude": -37.767431,
+      "longitude": 144.890872,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0269",
+      "suburb": "Patterson Lakes",
+      "postcode": "3197",
+      "latitude": -38.071246,
+      "longitude": 145.147648,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0270",
+      "suburb": "Cairnlea",
+      "postcode": "3023",
+      "latitude": -37.75367,
+      "longitude": 144.793795,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0271",
+      "suburb": "Burnside",
+      "postcode": "3023",
+      "latitude": -37.751816,
+      "longitude": 144.743979,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0273",
+      "suburb": "Pearcedale",
+      "postcode": "3912",
+      "latitude": -38.202158,
+      "longitude": 145.255172,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0274",
+      "suburb": "Warrnambool",
+      "postcode": "3280",
+      "latitude": -38.37224,
+      "longitude": 142.493686,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0275",
+      "suburb": "Mickleham",
+      "postcode": "3064",
+      "latitude": -37.53761,
+      "longitude": 144.891465,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0276",
+      "suburb": "Oakleigh South",
+      "postcode": "3167",
+      "latitude": -37.916436,
+      "longitude": 145.094108,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0277",
+      "suburb": "Oakleigh",
+      "postcode": "3166",
+      "latitude": -37.905619,
+      "longitude": 145.097596,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0278",
+      "suburb": "Bayswater",
+      "postcode": null,
+      "latitude": -37.848196,
+      "longitude": 145.267745,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0279",
+      "suburb": "Park Orchards",
+      "postcode": null,
+      "latitude": -37.776374,
+      "longitude": 145.207343,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0280",
+      "suburb": "Dingley Village",
+      "postcode": "3172",
+      "latitude": -37.978516,
+      "longitude": 145.116293,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0281",
+      "suburb": "Oakleigh East",
+      "postcode": "3166",
+      "latitude": -37.901129,
+      "longitude": 145.109262,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0282",
+      "suburb": "Keysborough",
+      "postcode": null,
+      "latitude": -38.004431,
+      "longitude": 145.175223,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0284",
+      "suburb": "Doncaster East",
+      "postcode": "3109",
+      "latitude": -37.77707,
+      "longitude": 145.159394,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0285",
+      "suburb": "Rowville",
+      "postcode": "3178",
+      "latitude": -37.91827,
+      "longitude": 145.247869,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0286",
+      "suburb": "Truganina",
+      "postcode": "3029",
+      "latitude": -37.793906,
+      "longitude": 144.716446,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0287",
+      "suburb": "Skye",
+      "postcode": "3977",
+      "latitude": -38.109865,
+      "longitude": 145.212687,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0288",
+      "suburb": "Bulleen",
+      "postcode": null,
+      "latitude": -37.766021,
+      "longitude": 145.080148,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0290",
+      "suburb": "Glen Waverley",
+      "postcode": "3150",
+      "latitude": -37.883107,
+      "longitude": 145.164993,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0291",
+      "suburb": "Glen Waverley",
+      "postcode": "3150",
+      "latitude": -37.876511,
+      "longitude": 145.175591,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0292",
+      "suburb": "Mulgrave",
+      "postcode": null,
+      "latitude": -37.92856,
+      "longitude": 145.176569,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0293",
+      "suburb": "Bentleigh",
+      "postcode": "3204",
+      "latitude": -37.920074,
+      "longitude": 145.034106,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0294",
+      "suburb": "Glen Waverley",
+      "postcode": "3150",
+      "latitude": -37.887546,
+      "longitude": 145.166162,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0295",
+      "suburb": "Glen Waverley",
+      "postcode": null,
+      "latitude": -37.883909,
+      "longitude": 145.173065,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0296",
+      "suburb": "Glen Iris",
+      "postcode": null,
+      "latitude": -37.85947,
+      "longitude": 145.063026,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0297",
+      "suburb": "Maribyrnong",
+      "postcode": "3032",
+      "latitude": -37.772741,
+      "longitude": 144.892116,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0298",
+      "suburb": "Springvale South",
+      "postcode": null,
+      "latitude": -37.966936,
+      "longitude": 145.15049,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0299",
+      "suburb": "Wheelers Hill",
+      "postcode": null,
+      "latitude": -37.90192,
+      "longitude": 145.191453,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0300",
+      "suburb": "Bentleigh",
+      "postcode": "3204",
+      "latitude": -37.924709,
+      "longitude": 145.040865,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0301",
+      "suburb": "Dandenong North",
+      "postcode": "3175",
+      "latitude": -37.961141,
+      "longitude": 145.21751,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0302",
+      "suburb": "Dandenong North",
+      "postcode": "3175",
+      "latitude": -37.957888,
+      "longitude": 145.219895,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0303",
+      "suburb": "Brighton",
+      "postcode": null,
+      "latitude": -37.914256,
+      "longitude": 145.001686,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0304",
+      "suburb": "Keysborough",
+      "postcode": "3173",
+      "latitude": -38.007912,
+      "longitude": 145.170784,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0305",
+      "suburb": "Glen Waverley",
+      "postcode": "3150",
+      "latitude": -37.877315,
+      "longitude": 145.172731,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0306",
+      "suburb": "Glen Waverley",
+      "postcode": null,
+      "latitude": -37.882557,
+      "longitude": 145.176863,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0307",
+      "suburb": "Templestowe Lower",
+      "postcode": "3107",
+      "latitude": -37.765229,
+      "longitude": 145.109138,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0308",
+      "suburb": "Reservoir",
+      "postcode": null,
+      "latitude": -37.714956,
+      "longitude": 145.006649,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0309",
+      "suburb": "Mentone",
+      "postcode": "3194",
+      "latitude": -37.977916,
+      "longitude": 145.067633,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0310",
+      "suburb": "Clayton",
+      "postcode": "3168",
+      "latitude": -37.918332,
+      "longitude": 145.134328,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0311",
+      "suburb": "Berwick",
+      "postcode": "3806",
+      "latitude": -38.039976,
+      "longitude": 145.353605,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0312",
+      "suburb": "Craigieburn",
+      "postcode": null,
+      "latitude": -37.582126,
+      "longitude": 144.924656,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0313",
+      "suburb": "Donvale",
+      "postcode": null,
+      "latitude": -37.795864,
+      "longitude": 145.189538,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0314",
+      "suburb": "Wheelers Hill",
+      "postcode": null,
+      "latitude": -37.909472,
+      "longitude": 145.190056,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0315",
+      "suburb": "Mulgrave",
+      "postcode": null,
+      "latitude": -37.921461,
+      "longitude": 145.172519,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0316",
+      "suburb": "Glen Waverley",
+      "postcode": null,
+      "latitude": -37.878792,
+      "longitude": 145.169475,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0317",
+      "suburb": "Templestowe",
+      "postcode": null,
+      "latitude": -37.756059,
+      "longitude": 145.150087,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0318",
+      "suburb": "Templestowe Lower",
+      "postcode": null,
+      "latitude": -37.771394,
+      "longitude": 145.109635,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0319",
+      "suburb": "Bayswater",
+      "postcode": null,
+      "latitude": -37.849422,
+      "longitude": 145.26476,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0320",
+      "suburb": "Chelsea",
+      "postcode": null,
+      "latitude": -38.046845,
+      "longitude": 145.123342,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0321",
+      "suburb": "Ringwood",
+      "postcode": null,
+      "latitude": -37.81268,
+      "longitude": 145.226435,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0322",
+      "suburb": "Doncaster East",
+      "postcode": null,
+      "latitude": -37.782774,
+      "longitude": 145.166158,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0323",
+      "suburb": "Caulfield North",
+      "postcode": "3161",
+      "latitude": -37.873027,
+      "longitude": 145.014463,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0326",
+      "suburb": "Blackburn",
+      "postcode": null,
+      "latitude": -37.825667,
+      "longitude": 145.147724,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0327",
+      "suburb": "Brighton East",
+      "postcode": null,
+      "latitude": -37.919762,
+      "longitude": 145.024306,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0328",
+      "suburb": "Dingley Village",
+      "postcode": null,
+      "latitude": -37.976068,
+      "longitude": 145.116449,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0332",
+      "suburb": "Doncaster East",
+      "postcode": null,
+      "latitude": -37.785545,
+      "longitude": 145.162595,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0333",
+      "suburb": "Templestowe",
+      "postcode": null,
+      "latitude": -37.759063,
+      "longitude": 145.155635,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0335",
+      "suburb": "Templestowe",
+      "postcode": null,
+      "latitude": -37.749951,
+      "longitude": 145.143277,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0337",
+      "suburb": "Templestowe",
+      "postcode": "3106",
+      "latitude": -37.753161,
+      "longitude": 145.152399,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0339",
+      "suburb": "Keysborough",
+      "postcode": null,
+      "latitude": -37.997884,
+      "longitude": 145.165181,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0340",
+      "suburb": "Ferntree Gully",
+      "postcode": null,
+      "latitude": -37.887127,
+      "longitude": 145.279818,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0341",
+      "suburb": "Glen Waverley",
+      "postcode": null,
+      "latitude": -37.878416,
+      "longitude": 145.162432,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0342",
+      "suburb": "Nunawading",
+      "postcode": null,
+      "latitude": -37.817262,
+      "longitude": 145.170127,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0343",
+      "suburb": "Keysborough",
+      "postcode": null,
+      "latitude": -37.998473,
+      "longitude": 145.167809,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0344",
+      "suburb": "Keysborough",
+      "postcode": null,
+      "latitude": -38.00425,
+      "longitude": 145.160486,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0345",
+      "suburb": "Avondale Heights",
+      "postcode": null,
+      "latitude": -37.765204,
+      "longitude": 144.857982,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0346",
+      "suburb": "Glen Waverley",
+      "postcode": null,
+      "latitude": -37.879666,
+      "longitude": 145.1773,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0347",
+      "suburb": "Glen Waverley",
+      "postcode": null,
+      "latitude": -37.882831,
+      "longitude": 145.162718,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0348",
+      "suburb": "Malvern East",
+      "postcode": null,
+      "latitude": -37.87397,
+      "longitude": 145.068032,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0349",
+      "suburb": "Dingley Village",
+      "postcode": null,
+      "latitude": -37.969964,
+      "longitude": 145.124374,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0350",
+      "suburb": "Mount Waverley",
+      "postcode": "3149",
+      "latitude": -37.880505,
+      "longitude": 145.126236,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0351",
+      "suburb": "Lysterfield",
+      "postcode": null,
+      "latitude": -37.934191,
+      "longitude": 145.309969,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0352",
+      "suburb": "Blackburn North",
+      "postcode": null,
+      "latitude": -37.808531,
+      "longitude": 145.149753,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0353",
+      "suburb": "Doncaster East",
+      "postcode": "3109",
+      "latitude": -37.776444,
+      "longitude": 145.164362,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0354",
+      "suburb": "Balwyn North",
+      "postcode": null,
+      "latitude": -37.791199,
+      "longitude": 145.09094,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0355",
+      "suburb": "Donvale",
+      "postcode": null,
+      "latitude": -37.784466,
+      "longitude": 145.188726,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0356",
+      "suburb": "Waterways",
+      "postcode": null,
+      "latitude": -38.017289,
+      "longitude": 145.129957,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0357",
+      "suburb": "Hawthorn East",
+      "postcode": null,
+      "latitude": -37.829159,
+      "longitude": 145.045637,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0358",
+      "suburb": "Beveridge",
+      "postcode": null,
+      "latitude": -37.470729,
+      "longitude": 144.976358,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0360",
+      "suburb": "Keysborough",
+      "postcode": "3173",
+      "latitude": -37.998351,
+      "longitude": 145.167047,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0361",
+      "suburb": "Keysborough",
+      "postcode": null,
+      "latitude": -38.000992,
+      "longitude": 145.166683,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0362",
+      "suburb": "Wheelers Hill",
+      "postcode": null,
+      "latitude": -37.902719,
+      "longitude": 145.194813,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0363",
+      "suburb": "Wheelers Hill",
+      "postcode": null,
+      "latitude": -37.912093,
+      "longitude": 145.180807,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0366",
+      "suburb": "Oakleigh South",
+      "postcode": null,
+      "latitude": -37.927897,
+      "longitude": 145.092392,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0367",
+      "suburb": "Mckinnon",
+      "postcode": null,
+      "latitude": -37.910201,
+      "longitude": 145.035513,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0368",
+      "suburb": "Camberwell",
+      "postcode": null,
+      "latitude": -37.833234,
+      "longitude": 145.074313,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0369",
+      "suburb": "Research",
+      "postcode": null,
+      "latitude": -37.711659,
+      "longitude": 145.187793,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0370",
+      "suburb": "Doreen",
+      "postcode": null,
+      "latitude": -37.59247,
+      "longitude": 145.141385,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0371",
+      "suburb": "Murrumbeena",
+      "postcode": null,
+      "latitude": -37.892538,
+      "longitude": 145.061751,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0372",
+      "suburb": "Bentleigh East",
+      "postcode": null,
+      "latitude": -37.924572,
+      "longitude": 145.07443,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0373",
+      "suburb": "Templestowe",
+      "postcode": null,
+      "latitude": -37.760114,
+      "longitude": 145.15127,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0374",
+      "suburb": "Doncaster East",
+      "postcode": "3109",
+      "latitude": -37.783656,
+      "longitude": 145.167476,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0375",
+      "suburb": "Doncaster East",
+      "postcode": "3109",
+      "latitude": -37.780086,
+      "longitude": 145.15664,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0376",
+      "suburb": "Templestowe",
+      "postcode": null,
+      "latitude": -37.750952,
+      "longitude": 145.147123,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0377",
+      "suburb": "Doncaster East",
+      "postcode": "3109",
+      "latitude": -37.781822,
+      "longitude": 145.161478,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0378",
+      "suburb": "Doncaster East",
+      "postcode": "3109",
+      "latitude": -37.780683,
+      "longitude": 145.158544,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0379",
+      "suburb": "Templestowe",
+      "postcode": null,
+      "latitude": -37.760559,
+      "longitude": 145.143758,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0380",
+      "suburb": "Doncaster East",
+      "postcode": "3109",
+      "latitude": -37.77411,
+      "longitude": 145.168891,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0381",
+      "suburb": "Wantirna South",
+      "postcode": null,
+      "latitude": -37.874225,
+      "longitude": 145.226868,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0382",
+      "suburb": "Ringwood",
+      "postcode": "3134",
+      "latitude": -37.812022,
+      "longitude": 145.228121,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0383",
+      "suburb": "Noble Park",
+      "postcode": null,
+      "latitude": -37.970066,
+      "longitude": 145.173193,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0384",
+      "suburb": "Springvale",
+      "postcode": null,
+      "latitude": -37.95209,
+      "longitude": 145.161749,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0385",
+      "suburb": "Keysborough",
+      "postcode": null,
+      "latitude": -38.007405,
+      "longitude": 145.164591,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0386",
+      "suburb": "Clayton South",
+      "postcode": null,
+      "latitude": -37.942841,
+      "longitude": 145.121024,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0387",
+      "suburb": "Cranbourne",
+      "postcode": "3977",
+      "latitude": -38.117797,
+      "longitude": 145.280361,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0388",
+      "suburb": "Berwick",
+      "postcode": null,
+      "latitude": -38.047006,
+      "longitude": 145.34637,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0389",
+      "suburb": "Balwyn",
+      "postcode": null,
+      "latitude": -37.815354,
+      "longitude": 145.078489,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0391",
+      "suburb": "Patterson Lakes",
+      "postcode": "3197",
+      "latitude": -38.071052,
+      "longitude": 145.147002,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0392",
+      "suburb": "Malvern East",
+      "postcode": null,
+      "latitude": -37.868802,
+      "longitude": 145.063665,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0396",
+      "suburb": "Glen Waverley",
+      "postcode": null,
+      "latitude": -37.876257,
+      "longitude": 145.169744,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0398",
+      "suburb": "Springvale South",
+      "postcode": null,
+      "latitude": -37.969972,
+      "longitude": 145.15367,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0399",
+      "suburb": "Templestowe",
+      "postcode": "3106",
+      "latitude": -37.749955,
+      "longitude": 145.149378,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0401",
+      "suburb": "Burwood East",
+      "postcode": null,
+      "latitude": -37.854867,
+      "longitude": 145.141126,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0402",
+      "suburb": "Templestowe",
+      "postcode": "3106",
+      "latitude": -37.755526,
+      "longitude": 145.140947,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0403",
+      "suburb": "Plenty",
+      "postcode": "3090",
+      "latitude": -37.664041,
+      "longitude": 145.113748,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0404",
+      "suburb": "Balwyn North",
+      "postcode": null,
+      "latitude": -37.790746,
+      "longitude": 145.079925,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0405",
+      "suburb": "Narre Warren",
+      "postcode": null,
+      "latitude": -38.015618,
+      "longitude": 145.303932,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0406",
+      "suburb": "Bentleigh",
+      "postcode": "3204",
+      "latitude": -37.919166,
+      "longitude": 145.035833,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0407",
+      "suburb": "Mount Waverley",
+      "postcode": "3149",
+      "latitude": -37.880984,
+      "longitude": 145.12456,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0409",
+      "suburb": "Oakleigh South",
+      "postcode": null,
+      "latitude": -37.917345,
+      "longitude": 145.095857,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0410",
+      "suburb": "Glen Iris",
+      "postcode": null,
+      "latitude": -37.852703,
+      "longitude": 145.068721,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0411",
+      "suburb": "Glen Waverley",
+      "postcode": null,
+      "latitude": -37.882982,
+      "longitude": 145.158212,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0412",
+      "suburb": "Wheelers Hill",
+      "postcode": null,
+      "latitude": -37.910387,
+      "longitude": 145.188403,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0413",
+      "suburb": "Patterson Lakes",
+      "postcode": "3197",
+      "latitude": -38.069407,
+      "longitude": 145.136853,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0414",
+      "suburb": "Wheelers Hill",
+      "postcode": null,
+      "latitude": -37.902904,
+      "longitude": 145.18306,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0415",
+      "suburb": "Knoxfield",
+      "postcode": "3180",
+      "latitude": -37.886401,
+      "longitude": 145.24855,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0416",
+      "suburb": "Keysborough",
+      "postcode": null,
+      "latitude": -38.002269,
+      "longitude": 145.164659,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0417",
+      "suburb": "Noble Park",
+      "postcode": null,
+      "latitude": -37.971939,
+      "longitude": 145.170827,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0418",
+      "suburb": "Ringwood East",
+      "postcode": null,
+      "latitude": -37.808043,
+      "longitude": 145.245886,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0419",
+      "suburb": "Burwood",
+      "postcode": null,
+      "latitude": -37.854819,
+      "longitude": 145.114413,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0420",
+      "suburb": "Balwyn North",
+      "postcode": null,
+      "latitude": -37.785596,
+      "longitude": 145.089395,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0421",
+      "suburb": "Viewbank",
+      "postcode": "3084",
+      "latitude": -37.74377,
+      "longitude": 145.096599,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0422",
+      "suburb": "Roxburgh Park",
+      "postcode": "3064",
+      "latitude": -37.621001,
+      "longitude": 144.925715,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0423",
+      "suburb": "Truganina",
+      "postcode": null,
+      "latitude": -37.797497,
+      "longitude": 144.708189,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0424",
+      "suburb": "Donvale",
+      "postcode": null,
+      "latitude": -37.79477,
+      "longitude": 145.190761,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0425",
+      "suburb": "Glen Waverley",
+      "postcode": null,
+      "latitude": -37.878697,
+      "longitude": 145.164638,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0426",
+      "suburb": "Frankston",
+      "postcode": "3199",
+      "latitude": -38.143348,
+      "longitude": 145.153235,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0427",
+      "suburb": "Glen Huntly",
+      "postcode": null,
+      "latitude": -37.89646,
+      "longitude": 145.044619,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0428",
+      "suburb": "Bentleigh",
+      "postcode": "3204",
+      "latitude": -37.925279,
+      "longitude": 145.040517,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0429",
+      "suburb": "Lyndhurst",
+      "postcode": "3975",
+      "latitude": -38.063462,
+      "longitude": 145.235685,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0430",
+      "suburb": "Berwick",
+      "postcode": null,
+      "latitude": -38.039834,
+      "longitude": 145.34322,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0431",
+      "suburb": "Vermont",
+      "postcode": null,
+      "latitude": -37.835769,
+      "longitude": 145.205562,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0432",
+      "suburb": "Bayswater",
+      "postcode": null,
+      "latitude": -37.843312,
+      "longitude": 145.262477,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0433",
+      "suburb": "Mount Waverley",
+      "postcode": null,
+      "latitude": -37.874616,
+      "longitude": 145.127049,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0434",
+      "suburb": "Blackburn",
+      "postcode": null,
+      "latitude": -37.818315,
+      "longitude": 145.149388,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0435",
+      "suburb": "Ringwood",
+      "postcode": null,
+      "latitude": -37.814991,
+      "longitude": 145.226874,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0436",
+      "suburb": "Ferntree Gully",
+      "postcode": "3156",
+      "latitude": -37.886761,
+      "longitude": 145.28595,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0437",
+      "suburb": "Keysborough",
+      "postcode": null,
+      "latitude": -37.997986,
+      "longitude": 145.16605,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0438",
+      "suburb": "Patterson Lakes",
+      "postcode": "3197",
+      "latitude": -38.067509,
+      "longitude": 145.152701,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0439",
+      "suburb": "Berwick",
+      "postcode": "3806",
+      "latitude": -38.034065,
+      "longitude": 145.34514,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0440",
+      "suburb": "Narre Warren South",
+      "postcode": null,
+      "latitude": -38.058148,
+      "longitude": 145.307315,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0441",
+      "suburb": "Mulgrave",
+      "postcode": "3170",
+      "latitude": -37.921752,
+      "longitude": 145.183366,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0443",
+      "suburb": "Murrumbeena",
+      "postcode": "3163",
+      "latitude": -37.900196,
+      "longitude": 145.074931,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0444",
+      "suburb": "Glen Iris",
+      "postcode": "3146",
+      "latitude": -37.852072,
+      "longitude": 145.059129,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0445",
+      "suburb": "Ringwood",
+      "postcode": "3134",
+      "latitude": -37.810521,
+      "longitude": 145.229044,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0446",
+      "suburb": "Boronia",
+      "postcode": null,
+      "latitude": -37.85874,
+      "longitude": 145.287458,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0447",
+      "suburb": "Frankston",
+      "postcode": "3199",
+      "latitude": -38.146589,
+      "longitude": 145.149595,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0448",
+      "suburb": "Narre Warren North",
+      "postcode": null,
+      "latitude": -37.985419,
+      "longitude": 145.314454,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0449",
+      "suburb": "Narre Warren North",
+      "postcode": null,
+      "latitude": -37.976993,
+      "longitude": 145.315533,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0450",
+      "suburb": "Warranwood",
+      "postcode": "3134",
+      "latitude": -37.772403,
+      "longitude": 145.257475,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0451",
+      "suburb": "Wheelers Hill",
+      "postcode": null,
+      "latitude": -37.90993,
+      "longitude": 145.193542,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0452",
+      "suburb": "Chirnside Park",
+      "postcode": null,
+      "latitude": -37.740638,
+      "longitude": 145.305985,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0453",
+      "suburb": "Caroline Springs",
+      "postcode": null,
+      "latitude": -37.729048,
+      "longitude": 144.744558,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0454",
+      "suburb": "Brighton East",
+      "postcode": null,
+      "latitude": -37.913047,
+      "longitude": 145.013418,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0455",
+      "suburb": "Narre Warren South",
+      "postcode": "3805",
+      "latitude": -38.052079,
+      "longitude": 145.306333,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0457",
+      "suburb": "Camberwell",
+      "postcode": "3124",
+      "latitude": -37.838363,
+      "longitude": 145.067448,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0459",
+      "suburb": "Glen Waverley",
+      "postcode": null,
+      "latitude": -37.888447,
+      "longitude": 145.173608,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0460",
+      "suburb": "Bentleigh East",
+      "postcode": null,
+      "latitude": -37.922617,
+      "longitude": 145.074536,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0461",
+      "suburb": "Croydon North",
+      "postcode": "3136",
+      "latitude": -37.767301,
+      "longitude": 145.286486,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0462",
+      "suburb": "Mount Eliza",
+      "postcode": null,
+      "latitude": -38.198321,
+      "longitude": 145.094495,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0463",
+      "suburb": "Frankston",
+      "postcode": null,
+      "latitude": -38.14894,
+      "longitude": 145.139384,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0464",
+      "suburb": "Doncaster East",
+      "postcode": "3109",
+      "latitude": -37.777021,
+      "longitude": 145.157144,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0465",
+      "suburb": "Doncaster East",
+      "postcode": null,
+      "latitude": -37.778081,
+      "longitude": 145.166839,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0466",
+      "suburb": "Mill Park",
+      "postcode": null,
+      "latitude": -37.670952,
+      "longitude": 145.058923,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0468",
+      "suburb": "Narre Warren South",
+      "postcode": null,
+      "latitude": -38.053496,
+      "longitude": 145.304656,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0470",
+      "suburb": "Cranbourne West",
+      "postcode": null,
+      "latitude": -38.101728,
+      "longitude": 145.254201,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0472",
+      "suburb": "Noble Park",
+      "postcode": null,
+      "latitude": -37.968106,
+      "longitude": 145.185981,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0473",
+      "suburb": "Noble Park",
+      "postcode": null,
+      "latitude": -37.971472,
+      "longitude": 145.172194,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0474",
+      "suburb": "Beaumaris",
+      "postcode": null,
+      "latitude": -37.983156,
+      "longitude": 145.032044,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0475",
+      "suburb": "Doncaster",
+      "postcode": null,
+      "latitude": -37.791556,
+      "longitude": 145.118737,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0476",
+      "suburb": "Bundoora",
+      "postcode": null,
+      "latitude": -37.701381,
+      "longitude": 145.06508,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0477",
+      "suburb": "Forest Hill",
+      "postcode": "3131",
+      "latitude": -37.834908,
+      "longitude": 145.175955,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0478",
+      "suburb": "Ringwood North",
+      "postcode": null,
+      "latitude": -37.791098,
+      "longitude": 145.240382,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0479",
+      "suburb": "Glen Waverley",
+      "postcode": "3150",
+      "latitude": -37.887157,
+      "longitude": 145.164113,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0480",
+      "suburb": "Glen Waverley",
+      "postcode": null,
+      "latitude": -37.885724,
+      "longitude": 145.169882,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0481",
+      "suburb": "Mount Waverley",
+      "postcode": "3149",
+      "latitude": -37.874988,
+      "longitude": 145.129897,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0483",
+      "suburb": "Balwyn North",
+      "postcode": "3104",
+      "latitude": -37.7875,
+      "longitude": 145.077705,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0484",
+      "suburb": "Wantirna",
+      "postcode": null,
+      "latitude": -37.849575,
+      "longitude": 145.221841,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0485",
+      "suburb": "Wantirna",
+      "postcode": null,
+      "latitude": -37.853916,
+      "longitude": 145.231057,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0487",
+      "suburb": "Dingley Village",
+      "postcode": null,
+      "latitude": -37.971904,
+      "longitude": 145.122891,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0488",
+      "suburb": "Park Orchards",
+      "postcode": null,
+      "latitude": -37.783641,
+      "longitude": 145.219432,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0489",
+      "suburb": "Doncaster East",
+      "postcode": null,
+      "latitude": -37.782978,
+      "longitude": 145.159656,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0490",
+      "suburb": "Frankston South",
+      "postcode": "3199",
+      "latitude": -38.178595,
+      "longitude": 145.123028,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0491",
+      "suburb": "Patterson Lakes",
+      "postcode": null,
+      "latitude": -38.068033,
+      "longitude": 145.139112,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0492",
+      "suburb": "Balwyn North",
+      "postcode": "3104",
+      "latitude": -37.789509,
+      "longitude": 145.089666,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0493",
+      "suburb": "Glen Waverley",
+      "postcode": "3150",
+      "latitude": -37.88399,
+      "longitude": 145.160668,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0494",
+      "suburb": "Mount Eliza",
+      "postcode": "3930",
+      "latitude": -38.200888,
+      "longitude": 145.098758,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0495",
+      "suburb": "Glen Waverley",
+      "postcode": null,
+      "latitude": -37.884726,
+      "longitude": 145.168811,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0496",
+      "suburb": "Glen Waverley",
+      "postcode": "3150",
+      "latitude": -37.884806,
+      "longitude": 145.1689,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0497",
+      "suburb": "Glen Waverley",
+      "postcode": "3150",
+      "latitude": -37.877632,
+      "longitude": 145.166256,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0498",
+      "suburb": "Glen Waverley",
+      "postcode": "3150",
+      "latitude": -37.880672,
+      "longitude": 145.172867,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0500",
+      "suburb": "Ormond",
+      "postcode": null,
+      "latitude": -37.89897,
+      "longitude": 145.046304,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0502",
+      "suburb": "Mount Waverley",
+      "postcode": null,
+      "latitude": -37.877788,
+      "longitude": 145.13377,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0503",
+      "suburb": "Mount Waverley",
+      "postcode": null,
+      "latitude": -37.881604,
+      "longitude": 145.131371,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0504",
+      "suburb": "Berwick",
+      "postcode": null,
+      "latitude": -38.039082,
+      "longitude": 145.344102,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0505",
+      "suburb": "Camberwell",
+      "postcode": null,
+      "latitude": -37.841528,
+      "longitude": 145.07713,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0506",
+      "suburb": "Caulfield North",
+      "postcode": null,
+      "latitude": -37.873149,
+      "longitude": 145.018097,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0507",
+      "suburb": "Heathmont",
+      "postcode": "3135",
+      "latitude": -37.827922,
+      "longitude": 145.235041,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0508",
+      "suburb": "Wantirna South",
+      "postcode": null,
+      "latitude": -37.876625,
+      "longitude": 145.221259,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0510",
+      "suburb": "Ringwood North",
+      "postcode": null,
+      "latitude": -37.797576,
+      "longitude": 145.23881,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0511",
+      "suburb": "Boronia",
+      "postcode": "3155",
+      "latitude": -37.855,
+      "longitude": 145.282296,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0512",
+      "suburb": "Croydon",
+      "postcode": null,
+      "latitude": -37.789559,
+      "longitude": 145.284286,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0513",
+      "suburb": "Waterways",
+      "postcode": "3195",
+      "latitude": -38.018489,
+      "longitude": 145.137559,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0514",
+      "suburb": "Keysborough",
+      "postcode": null,
+      "latitude": -38.008927,
+      "longitude": 145.162421,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0515",
+      "suburb": "Springvale",
+      "postcode": null,
+      "latitude": -37.941507,
+      "longitude": 145.16615,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0516",
+      "suburb": "Patterson Lakes",
+      "postcode": null,
+      "latitude": -38.063473,
+      "longitude": 145.145622,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0517",
+      "suburb": "Clyde",
+      "postcode": null,
+      "latitude": -38.141395,
+      "longitude": 145.352927,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0518",
+      "suburb": "Vermont South",
+      "postcode": "3133",
+      "latitude": -37.852276,
+      "longitude": 145.177915,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0519",
+      "suburb": "Mulgrave",
+      "postcode": "3170",
+      "latitude": -37.923641,
+      "longitude": 145.185621,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0520",
+      "suburb": "Warrandyte",
+      "postcode": "3113",
+      "latitude": -37.744805,
+      "longitude": 145.207592,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0521",
+      "suburb": "Doncaster",
+      "postcode": null,
+      "latitude": -37.786824,
+      "longitude": 145.122285,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0522",
+      "suburb": "Doncaster East",
+      "postcode": "3109",
+      "latitude": -37.771573,
+      "longitude": 145.165228,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0523",
+      "suburb": "Bundoora",
+      "postcode": "3083",
+      "latitude": -37.699355,
+      "longitude": 145.064693,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0524",
+      "suburb": "Keysborough",
+      "postcode": null,
+      "latitude": -38.000907,
+      "longitude": 145.164987,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0525",
+      "suburb": "Blackburn South",
+      "postcode": "3130",
+      "latitude": -37.842729,
+      "longitude": 145.138145,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0526",
+      "suburb": "Heathmont",
+      "postcode": "3135",
+      "latitude": -37.833339,
+      "longitude": 145.240779,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0527",
+      "suburb": "Doncaster East",
+      "postcode": null,
+      "latitude": -37.777578,
+      "longitude": 145.168267,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0528",
+      "suburb": "Templestowe",
+      "postcode": null,
+      "latitude": -37.753298,
+      "longitude": 145.158718,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0529",
+      "suburb": "Glen Waverley",
+      "postcode": null,
+      "latitude": -37.884943,
+      "longitude": 145.168034,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0530",
+      "suburb": "Mount Waverley",
+      "postcode": null,
+      "latitude": -37.875726,
+      "longitude": 145.135083,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0531",
+      "suburb": "Glen Waverley",
+      "postcode": "3150",
+      "latitude": -37.88244,
+      "longitude": 145.170974,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0532",
+      "suburb": "Cranbourne West",
+      "postcode": null,
+      "latitude": -38.09963,
+      "longitude": 145.245743,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0533",
+      "suburb": "Donvale",
+      "postcode": "3111",
+      "latitude": -37.784916,
+      "longitude": 145.190001,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0534",
+      "suburb": "Wantirna",
+      "postcode": null,
+      "latitude": -37.848775,
+      "longitude": 145.225484,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0535",
+      "suburb": "Glen Waverley",
+      "postcode": null,
+      "latitude": -37.884452,
+      "longitude": 145.176714,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0538",
+      "suburb": "Glen Waverley",
+      "postcode": "3150",
+      "latitude": -37.885189,
+      "longitude": 145.159243,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0539",
+      "suburb": "Langwarrin",
+      "postcode": "3910",
+      "latitude": -38.153808,
+      "longitude": 145.200785,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0540",
+      "suburb": "Box Hill",
+      "postcode": "3128",
+      "latitude": -37.821976,
+      "longitude": 145.129146,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0541",
+      "suburb": "Box Hill",
+      "postcode": null,
+      "latitude": -37.8179,
+      "longitude": 145.125702,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0542",
+      "suburb": "Glen Waverley",
+      "postcode": "3150",
+      "latitude": -37.884765,
+      "longitude": 145.168182,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0543",
+      "suburb": "Langwarrin",
+      "postcode": "3910",
+      "latitude": -38.159751,
+      "longitude": 145.193892,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0544",
+      "suburb": "Brooklyn",
+      "postcode": null,
+      "latitude": -37.814769,
+      "longitude": 144.844494,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0545",
+      "suburb": "Brooklyn",
+      "postcode": null,
+      "latitude": -37.822455,
+      "longitude": 144.839777,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0546",
+      "suburb": "Narre Warren",
+      "postcode": null,
+      "latitude": -38.015098,
+      "longitude": 145.31079,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0547",
+      "suburb": "Noble Park North",
+      "postcode": null,
+      "latitude": -37.951954,
+      "longitude": 145.18611,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0548",
+      "suburb": "Rowville",
+      "postcode": "3178",
+      "latitude": -37.922071,
+      "longitude": 145.248407,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0549",
+      "suburb": "Mitcham",
+      "postcode": null,
+      "latitude": -37.821103,
+      "longitude": 145.197034,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0550",
+      "suburb": "Glen Waverley",
+      "postcode": null,
+      "latitude": -37.880951,
+      "longitude": 145.162384,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0551",
+      "suburb": "Vermont South",
+      "postcode": "3133",
+      "latitude": -37.859255,
+      "longitude": 145.194936,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0552",
+      "suburb": "Balwyn North",
+      "postcode": null,
+      "latitude": -37.787875,
+      "longitude": 145.080374,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0553",
+      "suburb": "Balwyn North",
+      "postcode": null,
+      "latitude": -37.789232,
+      "longitude": 145.085626,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0554",
+      "suburb": "Templestowe",
+      "postcode": null,
+      "latitude": -37.752304,
+      "longitude": 145.146469,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0555",
+      "suburb": "Burwood East",
+      "postcode": null,
+      "latitude": -37.851411,
+      "longitude": 145.155162,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0556",
+      "suburb": "Templestowe",
+      "postcode": null,
+      "latitude": -37.75436,
+      "longitude": 145.151723,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0557",
+      "suburb": "Springvale",
+      "postcode": null,
+      "latitude": -37.940215,
+      "longitude": 145.162657,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0560",
+      "suburb": "Dromana",
+      "postcode": null,
+      "latitude": -38.328344,
+      "longitude": 145.002908,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0561",
+      "suburb": "Box Hill North",
+      "postcode": null,
+      "latitude": -37.806544,
+      "longitude": 145.121002,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0562",
+      "suburb": "Box Hill North",
+      "postcode": "3129",
+      "latitude": -37.812632,
+      "longitude": 145.126849,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0563",
+      "suburb": "Templestowe",
+      "postcode": "3106",
+      "latitude": -37.747395,
+      "longitude": 145.145881,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0564",
+      "suburb": "Healesville",
+      "postcode": "3777",
+      "latitude": -37.658856,
+      "longitude": 145.555877,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0566",
+      "suburb": "Glen Waverley",
+      "postcode": null,
+      "latitude": -37.884572,
+      "longitude": 145.175918,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0568",
+      "suburb": "Camberwell",
+      "postcode": null,
+      "latitude": -37.836313,
+      "longitude": 145.075808,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0569",
+      "suburb": "Kew East",
+      "postcode": "3102",
+      "latitude": -37.788521,
+      "longitude": 145.047345,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0570",
+      "suburb": "Templestowe",
+      "postcode": null,
+      "latitude": -37.750384,
+      "longitude": 145.140858,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0576",
+      "suburb": "Balwyn North",
+      "postcode": null,
+      "latitude": -37.794851,
+      "longitude": 145.081981,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0577",
+      "suburb": "Mount Waverley",
+      "postcode": null,
+      "latitude": -37.87226,
+      "longitude": 145.123665,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0579",
+      "suburb": "Hampton Park",
+      "postcode": null,
+      "latitude": -38.03274,
+      "longitude": 145.265023,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0580",
+      "suburb": "Beaumaris",
+      "postcode": null,
+      "latitude": -37.980713,
+      "longitude": 145.041476,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0581",
+      "suburb": "Mooroolbark",
+      "postcode": null,
+      "latitude": -37.776907,
+      "longitude": 145.332069,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0582",
+      "suburb": "Epping",
+      "postcode": "3076",
+      "latitude": -37.63792,
+      "longitude": 145.005405,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0583",
+      "suburb": "Bulleen",
+      "postcode": "3105",
+      "latitude": -37.772674,
+      "longitude": 145.089129,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0584",
+      "suburb": "Kew",
+      "postcode": null,
+      "latitude": -37.801653,
+      "longitude": 145.027073,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0585",
+      "suburb": "Doncaster East",
+      "postcode": null,
+      "latitude": -37.773248,
+      "longitude": 145.156675,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0586",
+      "suburb": "Ferntree Gully",
+      "postcode": null,
+      "latitude": -37.880005,
+      "longitude": 145.281811,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0587",
+      "suburb": "Vermont",
+      "postcode": "3133",
+      "latitude": -37.842746,
+      "longitude": 145.195651,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0588",
+      "suburb": "Burwood East",
+      "postcode": null,
+      "latitude": -37.856697,
+      "longitude": 145.14673,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0589",
+      "suburb": "Wantirna South",
+      "postcode": null,
+      "latitude": -37.868297,
+      "longitude": 145.215333,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0590",
+      "suburb": "Box Hill",
+      "postcode": "3128",
+      "latitude": -37.825743,
+      "longitude": 145.129717,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0591",
+      "suburb": "Park Orchards",
+      "postcode": "3114",
+      "latitude": -37.780122,
+      "longitude": 145.222892,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0592",
+      "suburb": "Blackburn",
+      "postcode": null,
+      "latitude": -37.822456,
+      "longitude": 145.144295,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0593",
+      "suburb": "Forest Hill",
+      "postcode": null,
+      "latitude": -37.834119,
+      "longitude": 145.171187,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0594",
+      "suburb": "Camberwell",
+      "postcode": "3124",
+      "latitude": -37.844253,
+      "longitude": 145.077862,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0595",
+      "suburb": "Wollert",
+      "postcode": null,
+      "latitude": -37.585734,
+      "longitude": 145.005844,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0596",
+      "suburb": "Glen Waverley",
+      "postcode": "3150",
+      "latitude": -37.886556,
+      "longitude": 145.165769,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0598",
+      "suburb": "Lysterfield",
+      "postcode": "3156",
+      "latitude": -37.934152,
+      "longitude": 145.305437,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0599",
+      "suburb": "Epping",
+      "postcode": "3076",
+      "latitude": -37.635786,
+      "longitude": 145.007761,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0600",
+      "suburb": "Aspendale Gardens",
+      "postcode": null,
+      "latitude": -38.018321,
+      "longitude": 145.119578,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0601",
+      "suburb": "Glen Waverley",
+      "postcode": "3150",
+      "latitude": -37.880777,
+      "longitude": 145.17405,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0602",
+      "suburb": "Lyndhurst",
+      "postcode": null,
+      "latitude": -38.066248,
+      "longitude": 145.239432,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0603",
+      "suburb": "Heathmont",
+      "postcode": "3135",
+      "latitude": -37.834268,
+      "longitude": 145.237843,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0604",
+      "suburb": "Bentleigh East",
+      "postcode": "3165",
+      "latitude": -37.918429,
+      "longitude": 145.058298,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0605",
+      "suburb": "Blackburn North",
+      "postcode": "3130",
+      "latitude": -37.803179,
+      "longitude": 145.14469,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0606",
+      "suburb": "Burwood East",
+      "postcode": null,
+      "latitude": -37.848046,
+      "longitude": 145.156505,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0607",
+      "suburb": "Vermont",
+      "postcode": null,
+      "latitude": -37.835406,
+      "longitude": 145.203774,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0609",
+      "suburb": "Bulleen",
+      "postcode": null,
+      "latitude": -37.766965,
+      "longitude": 145.081945,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0610",
+      "suburb": "Narre Warren South",
+      "postcode": null,
+      "latitude": -38.051352,
+      "longitude": 145.297325,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0611",
+      "suburb": "Frankston",
+      "postcode": null,
+      "latitude": -38.14985,
+      "longitude": 145.139765,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0612",
+      "suburb": "Thornhill Park",
+      "postcode": null,
+      "latitude": -37.72649,
+      "longitude": 144.624315,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0613",
+      "suburb": "Williams Landing",
+      "postcode": null,
+      "latitude": -37.864335,
+      "longitude": 144.739069,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0614",
+      "suburb": "Surrey Hills",
+      "postcode": "3127",
+      "latitude": -37.821536,
+      "longitude": 145.098919,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0615",
+      "suburb": "Vermont",
+      "postcode": "3133",
+      "latitude": -37.832821,
+      "longitude": 145.195074,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0617",
+      "suburb": "Mount Waverley",
+      "postcode": null,
+      "latitude": -37.882133,
+      "longitude": 145.131965,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0618",
+      "suburb": "Wantirna South",
+      "postcode": null,
+      "latitude": -37.879072,
+      "longitude": 145.218139,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0619",
+      "suburb": "Clyde North",
+      "postcode": null,
+      "latitude": -38.105015,
+      "longitude": 145.356976,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0620",
+      "suburb": "Cranbourne East",
+      "postcode": null,
+      "latitude": -38.11235,
+      "longitude": 145.31451,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0621",
+      "suburb": "Berwick",
+      "postcode": null,
+      "latitude": -38.042717,
+      "longitude": 145.356312,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0622",
+      "suburb": "Berwick",
+      "postcode": null,
+      "latitude": -38.039097,
+      "longitude": 145.358025,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0623",
+      "suburb": "Hallam",
+      "postcode": null,
+      "latitude": -38.003566,
+      "longitude": 145.26221,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0624",
+      "suburb": "Clyde North",
+      "postcode": null,
+      "latitude": -38.102514,
+      "longitude": 145.362437,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0625",
+      "suburb": "Hallam",
+      "postcode": null,
+      "latitude": -38.011374,
+      "longitude": 145.270982,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0626",
+      "suburb": "Endeavour Hills",
+      "postcode": null,
+      "latitude": -37.96365,
+      "longitude": 145.260538,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0627",
+      "suburb": "Dandenong North",
+      "postcode": null,
+      "latitude": -37.954459,
+      "longitude": 145.211034,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0628",
+      "suburb": "Scoresby",
+      "postcode": "3179",
+      "latitude": -37.898438,
+      "longitude": 145.223042,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0629",
+      "suburb": "Wantirna South",
+      "postcode": null,
+      "latitude": -37.879416,
+      "longitude": 145.214676,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0630",
+      "suburb": "Blackburn North",
+      "postcode": "3130",
+      "latitude": -37.807012,
+      "longitude": 145.146015,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0631",
+      "suburb": "Templestowe",
+      "postcode": null,
+      "latitude": -37.752702,
+      "longitude": 145.157119,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0632",
+      "suburb": "Lyndhurst",
+      "postcode": null,
+      "latitude": -38.066378,
+      "longitude": 145.238461,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0633",
+      "suburb": "Narre Warren South",
+      "postcode": null,
+      "latitude": -38.057772,
+      "longitude": 145.302959,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0634",
+      "suburb": "Cranbourne East",
+      "postcode": null,
+      "latitude": -38.114317,
+      "longitude": 145.300193,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0635",
+      "suburb": "Hampton Park",
+      "postcode": null,
+      "latitude": -38.044105,
+      "longitude": 145.264152,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0636",
+      "suburb": "Balwyn North",
+      "postcode": null,
+      "latitude": -37.795205,
+      "longitude": 145.090364,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0637",
+      "suburb": "Boronia",
+      "postcode": null,
+      "latitude": -37.858813,
+      "longitude": 145.286787,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0638",
+      "suburb": "Endeavour Hills",
+      "postcode": null,
+      "latitude": -37.968434,
+      "longitude": 145.252242,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0639",
+      "suburb": "Mount Eliza",
+      "postcode": "3930",
+      "latitude": -38.189618,
+      "longitude": 145.08921,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0640",
+      "suburb": "Clarinda",
+      "postcode": null,
+      "latitude": -37.939294,
+      "longitude": 145.107896,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0641",
+      "suburb": "Cheltenham",
+      "postcode": null,
+      "latitude": -37.967817,
+      "longitude": 145.068016,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0642",
+      "suburb": "Clayton South",
+      "postcode": null,
+      "latitude": -37.941012,
+      "longitude": 145.123405,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0643",
+      "suburb": "Clayton South",
+      "postcode": null,
+      "latitude": -37.939955,
+      "longitude": 145.126105,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0644",
+      "suburb": "Dandenong",
+      "postcode": null,
+      "latitude": -37.983597,
+      "longitude": 145.21602,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0645",
+      "suburb": "Heathmont",
+      "postcode": null,
+      "latitude": -37.836563,
+      "longitude": 145.240057,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0646",
+      "suburb": "North Warrandyte",
+      "postcode": null,
+      "latitude": -37.725546,
+      "longitude": 145.219578,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0647",
+      "suburb": "Balwyn North",
+      "postcode": null,
+      "latitude": -37.792336,
+      "longitude": 145.080503,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0648",
+      "suburb": "Noble Park",
+      "postcode": "3174",
+      "latitude": -37.963158,
+      "longitude": 145.182965,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0649",
+      "suburb": "Keysborough",
+      "postcode": "3173",
+      "latitude": -38.01286,
+      "longitude": 145.166684,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0650",
+      "suburb": "Hallam",
+      "postcode": null,
+      "latitude": -38.009522,
+      "longitude": 145.271337,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0651",
+      "suburb": "Keysborough",
+      "postcode": null,
+      "latitude": -38.008081,
+      "longitude": 145.171868,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0652",
+      "suburb": "Mordialloc",
+      "postcode": null,
+      "latitude": -37.998686,
+      "longitude": 145.093363,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0653",
+      "suburb": "Blackburn North",
+      "postcode": "3130",
+      "latitude": -37.801161,
+      "longitude": 145.152523,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0654",
+      "suburb": "Narre Warren South",
+      "postcode": null,
+      "latitude": -38.056173,
+      "longitude": 145.298077,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0655",
+      "suburb": "Springvale South",
+      "postcode": null,
+      "latitude": -37.972126,
+      "longitude": 145.152544,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0656",
+      "suburb": "Mount Waverley",
+      "postcode": null,
+      "latitude": -37.874473,
+      "longitude": 145.12118,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0657",
+      "suburb": "Bayswater North",
+      "postcode": null,
+      "latitude": -37.832191,
+      "longitude": 145.287532,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0658",
+      "suburb": "Bayswater",
+      "postcode": "3153",
+      "latitude": -37.851588,
+      "longitude": 145.262123,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0659",
+      "suburb": "Pakenham",
+      "postcode": null,
+      "latitude": -38.070955,
+      "longitude": 145.475959,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0660",
+      "suburb": "Blackburn South",
+      "postcode": null,
+      "latitude": -37.846242,
+      "longitude": 145.150999,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0661",
+      "suburb": "Kew",
+      "postcode": null,
+      "latitude": -37.803727,
+      "longitude": 145.02858,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0662",
+      "suburb": "Lyndhurst",
+      "postcode": null,
+      "latitude": -38.064445,
+      "longitude": 145.230614,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0663",
+      "suburb": "Glen Waverley",
+      "postcode": "3150",
+      "latitude": -37.880772,
+      "longitude": 145.173538,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0664",
+      "suburb": "Camberwell",
+      "postcode": null,
+      "latitude": -37.839844,
+      "longitude": 145.070556,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0665",
+      "suburb": "Doncaster East",
+      "postcode": null,
+      "latitude": -37.77624,
+      "longitude": 145.165748,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0666",
+      "suburb": "Bundoora",
+      "postcode": null,
+      "latitude": -37.69605,
+      "longitude": 145.054309,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0667",
+      "suburb": "Glen Iris",
+      "postcode": "3146",
+      "latitude": -37.85522,
+      "longitude": 145.0679,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0668",
+      "suburb": "Templestowe Lower",
+      "postcode": "3107",
+      "latitude": -37.76254,
+      "longitude": 145.102928,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0670",
+      "suburb": "Donvale",
+      "postcode": "3111",
+      "latitude": -37.787974,
+      "longitude": 145.200526,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0671",
+      "suburb": "Doncaster",
+      "postcode": "3108",
+      "latitude": -37.786932,
+      "longitude": 145.127825,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0672",
+      "suburb": "Pakenham",
+      "postcode": "3810",
+      "latitude": -38.070995,
+      "longitude": 145.490444,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0673",
+      "suburb": "Cranbourne North",
+      "postcode": null,
+      "latitude": -38.073444,
+      "longitude": 145.299243,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0674",
+      "suburb": "Ashburton",
+      "postcode": null,
+      "latitude": -37.870915,
+      "longitude": 145.080671,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0675",
+      "suburb": "Croydon",
+      "postcode": "3136",
+      "latitude": -37.796171,
+      "longitude": 145.277316,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0676",
+      "suburb": "Thomastown",
+      "postcode": null,
+      "latitude": -37.678733,
+      "longitude": 145.008152,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0677",
+      "suburb": "Rowville",
+      "postcode": null,
+      "latitude": -37.926551,
+      "longitude": 145.243086,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0678",
+      "suburb": "Chadstone",
+      "postcode": "3148",
+      "latitude": -37.877665,
+      "longitude": 145.094908,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0679",
+      "suburb": "Bentleigh East",
+      "postcode": "3165",
+      "latitude": -37.920302,
+      "longitude": 145.064924,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0682",
+      "suburb": "Doncaster",
+      "postcode": "3108",
+      "latitude": -37.790237,
+      "longitude": 145.117881,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0683",
+      "suburb": "Noble Park North",
+      "postcode": "3174",
+      "latitude": -37.945838,
+      "longitude": 145.189751,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0684",
+      "suburb": "Berwick",
+      "postcode": "3806",
+      "latitude": -38.033536,
+      "longitude": 145.345184,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0685",
+      "suburb": "Springvale",
+      "postcode": null,
+      "latitude": -37.944154,
+      "longitude": 145.16437,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0686",
+      "suburb": "Cheltenham",
+      "postcode": null,
+      "latitude": -37.967582,
+      "longitude": 145.061396,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0687",
+      "suburb": "Ashwood",
+      "postcode": null,
+      "latitude": -37.870474,
+      "longitude": 145.094328,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0688",
+      "suburb": "Glen Waverley",
+      "postcode": null,
+      "latitude": -37.877021,
+      "longitude": 145.176457,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0689",
+      "suburb": "Cranbourne East",
+      "postcode": "3977",
+      "latitude": -38.105303,
+      "longitude": 145.306082,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0690",
+      "suburb": "Berwick",
+      "postcode": "3806",
+      "latitude": -38.04429,
+      "longitude": 145.354055,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0691",
+      "suburb": "Bayswater",
+      "postcode": null,
+      "latitude": -37.847801,
+      "longitude": 145.268198,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0692",
+      "suburb": "Wheelers Hill",
+      "postcode": "3150",
+      "latitude": -37.905694,
+      "longitude": 145.189418,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0693",
+      "suburb": "Caulfield",
+      "postcode": "3162",
+      "latitude": -37.882253,
+      "longitude": 145.017839,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0694",
+      "suburb": "Templestowe Lower",
+      "postcode": "3107",
+      "latitude": -37.761117,
+      "longitude": 145.105738,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0695",
+      "suburb": "Donnybrook",
+      "postcode": "3064",
+      "latitude": -37.54289,
+      "longitude": 144.991853,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0696",
+      "suburb": "South Morang",
+      "postcode": "3752",
+      "latitude": -37.635415,
+      "longitude": 145.084496,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0698",
+      "suburb": "Clyde North",
+      "postcode": "3978",
+      "latitude": -38.108571,
+      "longitude": 145.362518,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0699",
+      "suburb": "Narre Warren",
+      "postcode": "3805",
+      "latitude": -38.011961,
+      "longitude": 145.305517,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0700",
+      "suburb": "Glen Waverley",
+      "postcode": "3150",
+      "latitude": -37.877275,
+      "longitude": 145.162314,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0701",
+      "suburb": "Wheelers Hill",
+      "postcode": "3150",
+      "latitude": -37.903135,
+      "longitude": 145.179886,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0702",
+      "suburb": "Burwood East",
+      "postcode": "3151",
+      "latitude": -37.852014,
+      "longitude": 145.157792,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0703",
+      "suburb": "Burwood East",
+      "postcode": "3151",
+      "latitude": -37.856907,
+      "longitude": 145.158704,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0704",
+      "suburb": "Officer",
+      "postcode": null,
+      "latitude": -38.056302,
+      "longitude": 145.411199,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0705",
+      "suburb": "Keysborough",
+      "postcode": "3173",
+      "latitude": -38.004664,
+      "longitude": 145.163191,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0706",
+      "suburb": "Keysborough",
+      "postcode": "3173",
+      "latitude": -38.004716,
+      "longitude": 145.162657,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0707",
+      "suburb": "Box Hill",
+      "postcode": "3128",
+      "latitude": -37.824419,
+      "longitude": 145.124141,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0708",
+      "suburb": "Templestowe",
+      "postcode": "3106",
+      "latitude": -37.757443,
+      "longitude": 145.149134,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0709",
+      "suburb": "Lynbrook",
+      "postcode": "3975",
+      "latitude": -38.060643,
+      "longitude": 145.260417,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0710",
+      "suburb": "Glen Waverley",
+      "postcode": "3150",
+      "latitude": -37.882437,
+      "longitude": 145.158023,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0711",
+      "suburb": "Burwood",
+      "postcode": null,
+      "latitude": -37.848935,
+      "longitude": 145.116057,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0713",
+      "suburb": "Vermont South",
+      "postcode": "3133",
+      "latitude": -37.846558,
+      "longitude": 145.187477,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0714",
+      "suburb": "Doncaster East",
+      "postcode": "3109",
+      "latitude": -37.779022,
+      "longitude": 145.167788,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0715",
+      "suburb": "Mont Albert North",
+      "postcode": "3129",
+      "latitude": -37.796296,
+      "longitude": 145.114952,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0716",
+      "suburb": "Mill Park",
+      "postcode": "3082",
+      "latitude": -37.666748,
+      "longitude": 145.059646,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0717",
+      "suburb": "South Morang",
+      "postcode": "3752",
+      "latitude": -37.628657,
+      "longitude": 145.087467,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0718",
+      "suburb": "Mount Waverley",
+      "postcode": null,
+      "latitude": -37.876142,
+      "longitude": 145.118651,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0719",
+      "suburb": "Mount Waverley",
+      "postcode": "3149",
+      "latitude": -37.884357,
+      "longitude": 145.125744,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0720",
+      "suburb": "Balwyn",
+      "postcode": "3103",
+      "latitude": -37.813077,
+      "longitude": 145.086817,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0721",
+      "suburb": "Ringwood North",
+      "postcode": "3134",
+      "latitude": -37.798196,
+      "longitude": 145.231198,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0722",
+      "suburb": "Donvale",
+      "postcode": "3111",
+      "latitude": -37.788101,
+      "longitude": 145.185442,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0723",
+      "suburb": "Lilydale",
+      "postcode": "3140",
+      "latitude": -37.758146,
+      "longitude": 145.370963,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0724",
+      "suburb": "Glen Waverley",
+      "postcode": "3150",
+      "latitude": -37.882259,
+      "longitude": 145.164534,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0725",
+      "suburb": "Glen Iris",
+      "postcode": null,
+      "latitude": -37.853976,
+      "longitude": 145.072751,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0726",
+      "suburb": "Glen Waverley",
+      "postcode": "3150",
+      "latitude": -37.881099,
+      "longitude": 145.163073,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0727",
+      "suburb": "Ferntree Gully",
+      "postcode": "3156",
+      "latitude": -37.885549,
+      "longitude": 145.28826,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0728",
+      "suburb": "Oakleigh East",
+      "postcode": "3166",
+      "latitude": -37.901501,
+      "longitude": 145.114853,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0729",
+      "suburb": "Glen Waverley",
+      "postcode": "3150",
+      "latitude": -37.882036,
+      "longitude": 145.161781,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0730",
+      "suburb": "Blackburn South",
+      "postcode": "3130",
+      "latitude": -37.845214,
+      "longitude": 145.140092,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0731",
+      "suburb": "Wantirna",
+      "postcode": "3152",
+      "latitude": -37.853691,
+      "longitude": 145.231813,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0732",
+      "suburb": "Glen Waverley",
+      "postcode": "3150",
+      "latitude": -37.887833,
+      "longitude": 145.170301,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0733",
+      "suburb": "Glen Waverley",
+      "postcode": "3150",
+      "latitude": -37.876848,
+      "longitude": 145.166458,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0734",
+      "suburb": "Mount Waverley",
+      "postcode": "3149",
+      "latitude": -37.883085,
+      "longitude": 145.130443,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0735",
+      "suburb": "Donvale",
+      "postcode": "3111",
+      "latitude": -37.786465,
+      "longitude": 145.191754,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0736",
+      "suburb": "Knoxfield",
+      "postcode": "3180",
+      "latitude": -37.88588,
+      "longitude": 145.244919,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0737",
+      "suburb": "Boronia",
+      "postcode": "3155",
+      "latitude": -37.86127,
+      "longitude": 145.284295,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0738",
+      "suburb": "Mount Waverley",
+      "postcode": null,
+      "latitude": -37.884343,
+      "longitude": 145.12717,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0739",
+      "suburb": "Docklands",
+      "postcode": null,
+      "latitude": -37.823158,
+      "longitude": 144.944362,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0740",
+      "suburb": "Burwood East",
+      "postcode": "3151",
+      "latitude": -37.850015,
+      "longitude": 145.156622,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0741",
+      "suburb": "Pakenham",
+      "postcode": "3810",
+      "latitude": -38.076679,
+      "longitude": 145.483659,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0742",
+      "suburb": "Pakenham",
+      "postcode": "3810",
+      "latitude": -38.072377,
+      "longitude": 145.479405,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0743",
+      "suburb": "Pakenham",
+      "postcode": null,
+      "latitude": -38.066515,
+      "longitude": 145.482243,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0744",
+      "suburb": "Pakenham",
+      "postcode": "3810",
+      "latitude": -38.077989,
+      "longitude": 145.493764,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0745",
+      "suburb": "Balwyn North",
+      "postcode": null,
+      "latitude": -37.794606,
+      "longitude": 145.090132,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0746",
+      "suburb": "Ringwood",
+      "postcode": "3134",
+      "latitude": -37.807166,
+      "longitude": 145.22751,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0748",
+      "suburb": "Ivanhoe",
+      "postcode": "3079",
+      "latitude": -37.771186,
+      "longitude": 145.045949,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0749",
+      "suburb": "Bulleen",
+      "postcode": "3105",
+      "latitude": -37.763342,
+      "longitude": 145.082772,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0750",
+      "suburb": "Balwyn North",
+      "postcode": "3104",
+      "latitude": -37.798711,
+      "longitude": 145.085895,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0751",
+      "suburb": "Hampton Park",
+      "postcode": null,
+      "latitude": -38.041426,
+      "longitude": 145.271346,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0752",
+      "suburb": "Mulgrave",
+      "postcode": null,
+      "latitude": -37.927413,
+      "longitude": 145.178116,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0753",
+      "suburb": "Glen Waverley",
+      "postcode": "3150",
+      "latitude": -37.876574,
+      "longitude": 145.170497,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0754",
+      "suburb": "Blackburn South",
+      "postcode": "3130",
+      "latitude": -37.840927,
+      "longitude": 145.137881,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0755",
+      "suburb": "Clarinda",
+      "postcode": "3169",
+      "latitude": -37.948546,
+      "longitude": 145.102946,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0756",
+      "suburb": "Clyde North",
+      "postcode": "3978",
+      "latitude": -38.098873,
+      "longitude": 145.363658,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0757",
+      "suburb": "Clyde North",
+      "postcode": "3978",
+      "latitude": -38.102585,
+      "longitude": 145.368743,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0758",
+      "suburb": "Mount Waverley",
+      "postcode": "3149",
+      "latitude": -37.877565,
+      "longitude": 145.122044,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0759",
+      "suburb": "Croydon",
+      "postcode": "3136",
+      "latitude": -37.792825,
+      "longitude": 145.285925,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0760",
+      "suburb": "Dandenong North",
+      "postcode": "3175",
+      "latitude": -37.95615,
+      "longitude": 145.209755,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0761",
+      "suburb": "Croydon Hills",
+      "postcode": null,
+      "latitude": -37.772299,
+      "longitude": 145.259651,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0762",
+      "suburb": "Cranbourne West",
+      "postcode": "3977",
+      "latitude": -38.098008,
+      "longitude": 145.246398,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0763",
+      "suburb": "Balwyn North",
+      "postcode": "3104",
+      "latitude": -37.795414,
+      "longitude": 145.081091,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0764",
+      "suburb": "Ashwood",
+      "postcode": "3147",
+      "latitude": -37.862482,
+      "longitude": 145.110218,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0765",
+      "suburb": "Glen Waverley",
+      "postcode": "3150",
+      "latitude": -37.883419,
+      "longitude": 145.170662,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0766",
+      "suburb": "Glen Iris",
+      "postcode": "3146",
+      "latitude": -37.862243,
+      "longitude": 145.063457,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0767",
+      "suburb": "Ormond",
+      "postcode": "3204",
+      "latitude": -37.909632,
+      "longitude": 145.038528,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0768",
+      "suburb": "Mount Waverley",
+      "postcode": null,
+      "latitude": -37.878221,
+      "longitude": 145.13399,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0770",
+      "suburb": "Mickleham",
+      "postcode": null,
+      "latitude": -37.538672,
+      "longitude": 144.891401,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0772",
+      "suburb": "Wollert",
+      "postcode": null,
+      "latitude": -37.592583,
+      "longitude": 145.015764,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0774",
+      "suburb": "Templestowe",
+      "postcode": "3106",
+      "latitude": -37.756638,
+      "longitude": 145.14726,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0775",
+      "suburb": "Lynbrook",
+      "postcode": "3975",
+      "latitude": -38.05433,
+      "longitude": 145.252856,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0776",
+      "suburb": "Clayton South",
+      "postcode": "3169",
+      "latitude": -37.945887,
+      "longitude": 145.126219,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0777",
+      "suburb": "Oakleigh South",
+      "postcode": "3167",
+      "latitude": -37.929506,
+      "longitude": 145.102027,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0778",
+      "suburb": "Glen Waverley",
+      "postcode": null,
+      "latitude": -37.888148,
+      "longitude": 145.172976,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0779",
+      "suburb": "Bentleigh",
+      "postcode": null,
+      "latitude": -37.920841,
+      "longitude": 145.036531,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0780",
+      "suburb": "Oakleigh South",
+      "postcode": null,
+      "latitude": -37.924852,
+      "longitude": 145.099963,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0781",
+      "suburb": "Chadstone",
+      "postcode": "3148",
+      "latitude": -37.883991,
+      "longitude": 145.105247,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0782",
+      "suburb": "Camberwell",
+      "postcode": "3124",
+      "latitude": -37.840342,
+      "longitude": 145.068231,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0783",
+      "suburb": "Nunawading",
+      "postcode": "3131",
+      "latitude": -37.8199,
+      "longitude": 145.169284,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0784",
+      "suburb": "Bulleen",
+      "postcode": "3105",
+      "latitude": -37.764974,
+      "longitude": 145.081426,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0785",
+      "suburb": "Balwyn",
+      "postcode": "3103",
+      "latitude": -37.811724,
+      "longitude": 145.082965,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0786",
+      "suburb": "Kew East",
+      "postcode": null,
+      "latitude": -37.784186,
+      "longitude": 145.05783,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0787",
+      "suburb": "Templestowe Lower",
+      "postcode": "3107",
+      "latitude": -37.77136,
+      "longitude": 145.115853,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0788",
+      "suburb": "Burwood",
+      "postcode": "3125",
+      "latitude": -37.852713,
+      "longitude": 145.102022,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0789",
+      "suburb": "Blackburn North",
+      "postcode": "3130",
+      "latitude": -37.806177,
+      "longitude": 145.149096,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0790",
+      "suburb": "Nunawading",
+      "postcode": "3131",
+      "latitude": -37.816502,
+      "longitude": 145.18084,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0791",
+      "suburb": "Wheelers Hill",
+      "postcode": "3150",
+      "latitude": -37.902125,
+      "longitude": 145.185305,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0792",
+      "suburb": "Wheelers Hill",
+      "postcode": "3150",
+      "latitude": -37.911725,
+      "longitude": 145.18394,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0793",
+      "suburb": "Glen Waverley",
+      "postcode": "3150",
+      "latitude": -37.880699,
+      "longitude": 145.158949,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0794",
+      "suburb": "Glen Waverley",
+      "postcode": "3150",
+      "latitude": -37.87988,
+      "longitude": 145.172444,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0795",
+      "suburb": "Doncaster East",
+      "postcode": "3109",
+      "latitude": -37.776932,
+      "longitude": 145.165283,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0796",
+      "suburb": "Croydon",
+      "postcode": "3136",
+      "latitude": -37.791825,
+      "longitude": 145.284463,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0797",
+      "suburb": "Croydon",
+      "postcode": "3136",
+      "latitude": -37.802693,
+      "longitude": 145.285601,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0798",
+      "suburb": "Vermont South",
+      "postcode": null,
+      "latitude": -37.859652,
+      "longitude": 145.193237,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0799",
+      "suburb": "Mont Albert North",
+      "postcode": "3129",
+      "latitude": -37.802859,
+      "longitude": 145.105381,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0800",
+      "suburb": "Glen Waverley",
+      "postcode": "3150",
+      "latitude": -37.880891,
+      "longitude": 145.171287,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0801",
+      "suburb": "Mulgrave",
+      "postcode": null,
+      "latitude": -37.918119,
+      "longitude": 145.175823,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0802",
+      "suburb": "Berwick",
+      "postcode": "3806",
+      "latitude": -38.035422,
+      "longitude": 145.346438,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0803",
+      "suburb": "Langwarrin",
+      "postcode": "3910",
+      "latitude": -38.15152,
+      "longitude": 145.189433,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0804",
+      "suburb": "Heathmont",
+      "postcode": null,
+      "latitude": -37.833557,
+      "longitude": 145.244215,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0805",
+      "suburb": "Dandenong North",
+      "postcode": "3175",
+      "latitude": -37.955337,
+      "longitude": 145.220296,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0806",
+      "suburb": "Balwyn North",
+      "postcode": "3104",
+      "latitude": -37.786244,
+      "longitude": 145.081094,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0807",
+      "suburb": "Berwick",
+      "postcode": "3806",
+      "latitude": -38.035953,
+      "longitude": 145.347129,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0808",
+      "suburb": "Lynbrook",
+      "postcode": "3975",
+      "latitude": -38.052542,
+      "longitude": 145.254006,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0809",
+      "suburb": "Wheelers Hill",
+      "postcode": "3150",
+      "latitude": -37.911495,
+      "longitude": 145.18498,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0810",
+      "suburb": "Glen Waverley",
+      "postcode": "3150",
+      "latitude": -37.87872,
+      "longitude": 145.174489,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0811",
+      "suburb": "Rowville",
+      "postcode": "3178",
+      "latitude": -37.925433,
+      "longitude": 145.246485,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0812",
+      "suburb": "Blackburn",
+      "postcode": "3130",
+      "latitude": -37.824022,
+      "longitude": 145.161949,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0813",
+      "suburb": "Donvale",
+      "postcode": "3111",
+      "latitude": -37.787021,
+      "longitude": 145.191557,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0814",
+      "suburb": "Park Orchards",
+      "postcode": "3114",
+      "latitude": -37.779418,
+      "longitude": 145.22277,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0815",
+      "suburb": "Mount Waverley",
+      "postcode": "3149",
+      "latitude": -37.88098,
+      "longitude": 145.122544,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0816",
+      "suburb": "Oakleigh South",
+      "postcode": "3167",
+      "latitude": -37.916779,
+      "longitude": 145.092059,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0817",
+      "suburb": "Glen Iris",
+      "postcode": null,
+      "latitude": -37.850359,
+      "longitude": 145.065375,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0818",
+      "suburb": "Hallam",
+      "postcode": "3803",
+      "latitude": -38.010331,
+      "longitude": 145.275031,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0819",
+      "suburb": "Waterways",
+      "postcode": "3195",
+      "latitude": -38.007888,
+      "longitude": 145.135353,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0820",
+      "suburb": "Cranbourne East",
+      "postcode": "3977",
+      "latitude": -38.107934,
+      "longitude": 145.303512,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0821",
+      "suburb": "Keysborough",
+      "postcode": "3173",
+      "latitude": -38.009443,
+      "longitude": 145.17243,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0822",
+      "suburb": "Lalor",
+      "postcode": "3075",
+      "latitude": -37.662518,
+      "longitude": 145.008756,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0823",
+      "suburb": "Noble Park",
+      "postcode": "3174",
+      "latitude": -37.976212,
+      "longitude": 145.178872,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0825",
+      "suburb": "Officer",
+      "postcode": "3809",
+      "latitude": -38.061036,
+      "longitude": 145.4136,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0826",
+      "suburb": "Narre Warren",
+      "postcode": "3805",
+      "latitude": -38.024072,
+      "longitude": 145.309771,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0827",
+      "suburb": "Berwick",
+      "postcode": "3806",
+      "latitude": -38.04346,
+      "longitude": 145.356781,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0828",
+      "suburb": "Balwyn North",
+      "postcode": null,
+      "latitude": -37.793464,
+      "longitude": 145.091449,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0829",
+      "suburb": "Derrimut",
+      "postcode": "3026",
+      "latitude": -37.802117,
+      "longitude": 144.767174,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0830",
+      "suburb": "Nunawading",
+      "postcode": "3131",
+      "latitude": -37.820144,
+      "longitude": 145.175975,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0831",
+      "suburb": "Doncaster",
+      "postcode": "3108",
+      "latitude": -37.789525,
+      "longitude": 145.130297,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0832",
+      "suburb": "Balwyn North",
+      "postcode": "3104",
+      "latitude": -37.793762,
+      "longitude": 145.081407,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0833",
+      "suburb": "Doncaster East",
+      "postcode": "3109",
+      "latitude": -37.781841,
+      "longitude": 145.155351,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0834",
+      "suburb": "Patterson Lakes",
+      "postcode": "3197",
+      "latitude": -38.070507,
+      "longitude": 145.147486,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0835",
+      "suburb": "Wheelers Hill",
+      "postcode": "3150",
+      "latitude": -37.908783,
+      "longitude": 145.184465,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0837",
+      "suburb": "Clayton South",
+      "postcode": "3169",
+      "latitude": -37.944292,
+      "longitude": 145.120136,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0838",
+      "suburb": "Mambourin",
+      "postcode": "3024",
+      "latitude": -37.905056,
+      "longitude": 144.556201,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0839",
+      "suburb": "Aintree",
+      "postcode": "3336",
+      "latitude": -37.726039,
+      "longitude": 144.670811,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0841",
+      "suburb": "Burwood",
+      "postcode": "3125",
+      "latitude": -37.844203,
+      "longitude": 145.116856,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0842",
+      "suburb": "Burwood",
+      "postcode": "3125",
+      "latitude": -37.853587,
+      "longitude": 145.11337,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0843",
+      "suburb": "Mount Waverley",
+      "postcode": "3149",
+      "latitude": -37.8795,
+      "longitude": 145.137522,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0844",
+      "suburb": "Narre Warren South",
+      "postcode": "3805",
+      "latitude": -38.059103,
+      "longitude": 145.302518,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0845",
+      "suburb": "Cranbourne North",
+      "postcode": "3977",
+      "latitude": -38.08017,
+      "longitude": 145.289987,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0846",
+      "suburb": "Sydenham",
+      "postcode": "3037",
+      "latitude": -37.697556,
+      "longitude": 144.759393,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0847",
+      "suburb": "Fraser Rise",
+      "postcode": "3336",
+      "latitude": -37.700264,
+      "longitude": 144.713744,
+      "projectType": "solar"
+    },
+    {
+      "id": "sp-0848",
+      "suburb": "Glen Iris",
+      "postcode": "3146",
+      "latitude": -37.863135,
+      "longitude": 145.062906,
+      "projectType": "solar"
+    }
+  ]
+}

@@ -10,12 +10,12 @@ export default function WorkPage() {
     <>
       <SiteHeader />
       <main>
-        <section className="simple-hero"><div className="shell"><p className="eyebrow"><span />Our work</p><h1>Solar installations across Melbourne.</h1><p>Explore the homes and businesses we’ve helped move toward smarter, more reliable energy.</p></div></section>
+        <section className="simple-hero"><div className="shell"><p className="eyebrow"><span />Our work</p><h1>Solar installations across Melbourne.</h1><p>Search your suburb, explore completed projects nearby and see the depth of our local experience.</p></div></section>
         <section className="section map-page"><div className="shell"><ProjectMap /></div></section>
         <section className="section testimonials-section">
           <div className="shell content-split">
-            <div><p className="kicker">Built on real outcomes</p><h2>Every pin will tell a project story.</h2></div>
-            <div className="rich-copy"><p>When the project list is supplied, each location can include system size, installation type, suburb, completion year, project photography and an approved customer review.</p><p>Residential locations will be shown at suburb level to protect customer privacy.</p></div>
+            <div><p className="kicker">Built on real outcomes</p><h2>Local experience, made visible.</h2></div>
+            <div className="rich-copy"><p>The map brings hundreds of completed Solar People installations together in one place. Search a suburb or use your location to understand how many systems we have delivered nearby.</p><p>Every residential point is deliberately moved away from the exact property address. The map demonstrates local experience without identifying our customers.</p></div>
           </div>
         </section>
       </main>

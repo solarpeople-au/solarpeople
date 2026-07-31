@@ -99,7 +99,7 @@ export default function Home() {
                 installations completed across Melbourne.
               </p>
               <div className="map-stat">
-                <strong>100s</strong><span>of systems installed across metropolitan Melbourne</span>
+                <strong>747</strong><span>completed projects mapped across metropolitan Melbourne</span>
               </div>
               <Link className="button button-primary" href="/our-work">View all projects <span>↗</span></Link>
             </div>
