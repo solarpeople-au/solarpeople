@@ -96,7 +96,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="section brand-partners-section">
+        <section className="section brand-partners-section" id="brands">
           <div className="shell">
             <div className="brand-partners-heading">
               <p className="kicker">Trusted technology</p>
