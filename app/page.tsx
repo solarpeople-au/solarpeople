@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { BrandGrid } from "./components/BrandGrid";
 import { ProjectMap } from "./components/ProjectMap";
 import { QuoteForm } from "./components/QuoteForm";
 import { SiteFooter } from "./components/SiteFooter";
@@ -92,6 +93,20 @@ export default function Home() {
         <section className="section work-section">
           <div className="shell">
             <ProjectMap compact />
+          </div>
+        </section>
+
+        <section className="section brand-partners-section">
+          <div className="shell">
+            <div className="brand-partners-heading">
+              <p className="kicker">Trusted technology</p>
+              <h2>The brands we use.</h2>
+              <p>
+                Proven solar, battery and energy technology selected to suit
+                each home, business and budget.
+              </p>
+            </div>
+            <BrandGrid />
           </div>
         </section>
 
