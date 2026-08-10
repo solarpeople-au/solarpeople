@@ -17,6 +17,11 @@ const brands: Brand[] = [
   { name: "Dyness", logo: "/brands/dyness.png" },
   { name: "EGing PV", logo: "/brands/eging-pv.png" },
   { name: "Emerald", logo: "/brands/emerald.png" },
+  {
+    name: "Felicity Solar",
+    logo: "/brands/felicity-solar.png",
+    href: "https://www.felicitysolar.com.au/",
+  },
   { name: "FOX ESS", logo: "/brands/fox-ess.png" },
   { name: "GoodWe", logo: "/brands/goodwe.png" },
   { name: "JA Solar", logo: "/brands/ja-solar.png" },
